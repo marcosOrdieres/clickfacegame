@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/marcos/click-face-game/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/marcos/click-face-game/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/marcos/click-face-game/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_notif.png",
+        "source": "/Users/marcos/click-face-game/android/app/src/main/res/mipmap-hdpi/ic_notif.png"
+    }
+]
