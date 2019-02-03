@@ -138,6 +138,8 @@ buildToolsVersion "21.0.1"
 }
 
 dependencies {
+    compile project(':react-native-svg')
+    compile project(':react-native-svg')
     compile project(':react-native-i18n')
     compile project(':react-native-firebase')
     compile project(':react-native-admob')
