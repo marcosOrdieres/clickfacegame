@@ -21,8 +21,12 @@ public final class R {
         public static final int abc_slide_out_top=0x7f050009;
         public static final int abc_tooltip_enter=0x7f05000a;
         public static final int abc_tooltip_exit=0x7f05000b;
-        public static final int catalyst_push_up_in=0x7f05000c;
-        public static final int catalyst_push_up_out=0x7f05000d;
+        public static final int catalyst_fade_in=0x7f05000c;
+        public static final int catalyst_fade_out=0x7f05000d;
+        public static final int catalyst_push_up_in=0x7f05000e;
+        public static final int catalyst_push_up_out=0x7f05000f;
+        public static final int catalyst_slide_down=0x7f050010;
+        public static final int catalyst_slide_up=0x7f050011;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -94,7 +98,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f0100e7;
+        public static final int actionLayout=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -172,7 +176,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f0100e9;
+        public static final int actionProviderClass=0x7f0100ea;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -180,11 +184,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f0100e8;
+        public static final int actionViewClass=0x7f0100e9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int activityChooserViewStyle=0x7f01006e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actualImageResource=0x7f010103;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -203,6 +211,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int actualImageScaleType=0x7f0100d4;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int actualImageUri=0x7f010102;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -253,7 +269,7 @@ containing a value of this type.
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
          */
-        public static final int alphabeticModifiers=0x7f0100e4;
+        public static final int alphabeticModifiers=0x7f0100e5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -351,7 +367,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f010124;
+        public static final int backgroundTint=0x7f010123;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -366,7 +382,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010125;
+        public static final int backgroundTintMode=0x7f010124;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -411,7 +427,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
          */
-        public static final int buttonGravity=0x7f010119;
+        public static final int buttonGravity=0x7f010118;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -469,7 +485,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f0100fc;
+        public static final int closeIcon=0x7f0100f9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -481,11 +497,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f01011b;
+        public static final int collapseContentDescription=0x7f01011a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f01011a;
+        public static final int collapseIcon=0x7f010119;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -585,7 +601,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f010101;
+        public static final int commitIcon=0x7f0100fe;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -593,7 +609,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentDescription=0x7f0100ea;
+        public static final int contentDescription=0x7f0100eb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -673,7 +689,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f0100fb;
+        public static final int defaultQueryHint=0x7f0100f8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -721,7 +737,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f0100e3;
+        public static final int dividerPadding=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -911,7 +927,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f0100fd;
+        public static final int goIcon=0x7f0100fa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -950,7 +966,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconTint=0x7f0100ec;
+        public static final int iconTint=0x7f0100ed;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -965,7 +981,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int iconTintMode=0x7f0100ed;
+        public static final int iconTintMode=0x7f0100ee;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -973,7 +989,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f0100f9;
+        public static final int iconifiedByDefault=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1015,15 +1031,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f0100f8;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int layoutManager=0x7f0100f4;
+        public static final int layout=0x7f0100f5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1185,7 +1193,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f01011e;
+        public static final int logoDescription=0x7f01011d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1195,7 +1203,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010118;
+        public static final int maxButtonHeight=0x7f010117;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1203,7 +1211,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f0100e1;
+        public static final int measureWithLargestChild=0x7f0100e2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1215,11 +1223,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f01011d;
+        public static final int navigationContentDescription=0x7f01011c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f01011c;
+        public static final int navigationIcon=0x7f01011b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1246,7 +1254,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
          */
-        public static final int numericModifiers=0x7f0100e5;
+        public static final int numericModifiers=0x7f0100e6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1254,7 +1262,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100f0;
+        public static final int overlapAnchor=0x7f0100f1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1268,7 +1276,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingBottomNoButtons=0x7f0100f2;
+        public static final int paddingBottomNoButtons=0x7f0100f3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1278,7 +1286,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010122;
+        public static final int paddingEnd=0x7f010121;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1288,7 +1296,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f010121;
+        public static final int paddingStart=0x7f010120;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1298,7 +1306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingTopNoTitle=0x7f0100f3;
+        public static final int paddingTopNoTitle=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1358,7 +1366,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f0100ee;
+        public static final int preserveIconSpacing=0x7f0100ef;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1410,7 +1418,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f010103;
+        public static final int queryBackground=0x7f010100;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1418,7 +1426,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f0100fa;
+        public static final int queryHint=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1457,14 +1465,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int retryImageScaleType=0x7f0100ce;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int reverseLayout=0x7f0100f6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1542,15 +1542,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
+        public static final int roundingBorderPadding=0x7f0100e1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
         public static final int roundingBorderWidth=0x7f0100df;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f0100ff;
+        public static final int searchHintIcon=0x7f0100fc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f0100fe;
+        public static final int searchIcon=0x7f0100fb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1580,7 +1590,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f0100e6;
+        public static final int showAsAction=0x7f0100e7;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1593,7 +1603,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f0100e2;
+        public static final int showDividers=0x7f0100e3;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1601,7 +1611,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f01010f;
+        public static final int showText=0x7f01010e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1614,14 +1624,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int singleChoiceItemLayout=0x7f010025;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spanCount=0x7f0100f5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1645,7 +1647,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f01010e;
+        public static final int splitTrack=0x7f01010d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1657,15 +1659,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f0100f7;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int state_above_anchor=0x7f0100f1;
+        public static final int state_above_anchor=0x7f0100f2;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -1675,11 +1669,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subMenuArrow=0x7f0100ef;
+        public static final int subMenuArrow=0x7f0100f0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f010104;
+        public static final int submitBackground=0x7f010101;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1691,7 +1685,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f010111;
+        public static final int subtitleTextAppearance=0x7f010110;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1700,7 +1694,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f010120;
+        public static final int subtitleTextColor=0x7f01011f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1708,7 +1702,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f010102;
+        public static final int suggestionRowLayout=0x7f0100ff;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1718,7 +1712,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f01010c;
+        public static final int switchMinWidth=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1728,7 +1722,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f01010d;
+        public static final int switchPadding=0x7f01010c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1736,7 +1730,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f01010b;
+        public static final int switchTextAppearance=0x7f01010a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1789,7 +1783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f010123;
+        public static final int theme=0x7f010122;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1809,7 +1803,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f01010a;
+        public static final int thumbTextPadding=0x7f010109;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1818,7 +1812,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTint=0x7f010105;
+        public static final int thumbTint=0x7f010104;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1833,7 +1827,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int thumbTintMode=0x7f010106;
+        public static final int thumbTintMode=0x7f010105;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1903,7 +1897,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargin=0x7f010112;
+        public static final int titleMargin=0x7f010111;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1913,7 +1907,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010116;
+        public static final int titleMarginBottom=0x7f010115;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1923,7 +1917,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f010114;
+        public static final int titleMarginEnd=0x7f010113;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1933,7 +1927,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f010113;
+        public static final int titleMarginStart=0x7f010112;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1943,7 +1937,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010115;
+        public static final int titleMarginTop=0x7f010114;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1953,11 +1947,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f010117;
+        public static final int titleMargins=0x7f010116;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f010110;
+        public static final int titleTextAppearance=0x7f01010f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1966,7 +1960,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01011f;
+        public static final int titleTextColor=0x7f01011e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1996,11 +1990,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tooltipText=0x7f0100eb;
+        public static final int tooltipText=0x7f0100ec;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f010107;
+        public static final int track=0x7f010106;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2009,7 +2003,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int trackTint=0x7f010108;
+        public static final int trackTint=0x7f010107;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2024,7 +2018,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int trackTintMode=0x7f010109;
+        public static final int trackTintMode=0x7f010108;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2044,7 +2038,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f010100;
+        public static final int voiceIcon=0x7f0100fd;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2338,30 +2332,29 @@ containing a value of this type.
         public static final int hint_alpha_material_light=0x7f08005a;
         public static final int hint_pressed_alpha_material_dark=0x7f08005b;
         public static final int hint_pressed_alpha_material_light=0x7f08005c;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f08005d;
-        public static final int notification_action_icon_size=0x7f08005e;
-        public static final int notification_action_text_size=0x7f08005f;
-        public static final int notification_big_circle_margin=0x7f080060;
+        public static final int notification_action_icon_size=0x7f08005d;
+        public static final int notification_action_text_size=0x7f08005e;
+        public static final int notification_big_circle_margin=0x7f08005f;
         public static final int notification_content_margin_start=0x7f080012;
-        public static final int notification_large_icon_height=0x7f080061;
-        public static final int notification_large_icon_width=0x7f080062;
+        public static final int notification_large_icon_height=0x7f080060;
+        public static final int notification_large_icon_width=0x7f080061;
         public static final int notification_main_column_padding_top=0x7f080013;
         public static final int notification_media_narrow_margin=0x7f080014;
-        public static final int notification_right_icon_size=0x7f080063;
+        public static final int notification_right_icon_size=0x7f080062;
         public static final int notification_right_side_padding_top=0x7f080010;
-        public static final int notification_small_icon_background_padding=0x7f080064;
-        public static final int notification_small_icon_size_as_large=0x7f080065;
-        public static final int notification_subtext_size=0x7f080066;
-        public static final int notification_top_pad=0x7f080067;
-        public static final int notification_top_pad_large_text=0x7f080068;
-        public static final int tooltip_corner_radius=0x7f080069;
-        public static final int tooltip_horizontal_padding=0x7f08006a;
-        public static final int tooltip_margin=0x7f08006b;
-        public static final int tooltip_precise_anchor_extra_offset=0x7f08006c;
-        public static final int tooltip_precise_anchor_threshold=0x7f08006d;
-        public static final int tooltip_vertical_padding=0x7f08006e;
-        public static final int tooltip_y_offset_non_touch=0x7f08006f;
-        public static final int tooltip_y_offset_touch=0x7f080070;
+        public static final int notification_small_icon_background_padding=0x7f080063;
+        public static final int notification_small_icon_size_as_large=0x7f080064;
+        public static final int notification_subtext_size=0x7f080065;
+        public static final int notification_top_pad=0x7f080066;
+        public static final int notification_top_pad_large_text=0x7f080067;
+        public static final int tooltip_corner_radius=0x7f080068;
+        public static final int tooltip_horizontal_padding=0x7f080069;
+        public static final int tooltip_margin=0x7f08006a;
+        public static final int tooltip_precise_anchor_extra_offset=0x7f08006b;
+        public static final int tooltip_precise_anchor_threshold=0x7f08006c;
+        public static final int tooltip_vertical_padding=0x7f08006d;
+        public static final int tooltip_y_offset_non_touch=0x7f08006e;
+        public static final int tooltip_y_offset_touch=0x7f08006f;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2463,149 +2456,156 @@ containing a value of this type.
         public static final int tooltip_frame_light=0x7f02005e;
     }
     public static final class id {
-        public static final int ALT=0x7f0c003e;
-        public static final int CTRL=0x7f0c003f;
-        public static final int FUNCTION=0x7f0c0040;
-        public static final int META=0x7f0c0041;
-        public static final int SHIFT=0x7f0c0042;
-        public static final int SYM=0x7f0c0043;
-        public static final int action_bar=0x7f0c006b;
+        public static final int ALT=0x7f0c003f;
+        public static final int CTRL=0x7f0c0040;
+        public static final int FUNCTION=0x7f0c0041;
+        public static final int META=0x7f0c0042;
+        public static final int SHIFT=0x7f0c0043;
+        public static final int SYM=0x7f0c0044;
+        public static final int action_bar=0x7f0c006c;
         public static final int action_bar_activity_content=0x7f0c0000;
-        public static final int action_bar_container=0x7f0c006a;
-        public static final int action_bar_root=0x7f0c0066;
+        public static final int action_bar_container=0x7f0c006b;
+        public static final int action_bar_root=0x7f0c0067;
         public static final int action_bar_spinner=0x7f0c0001;
-        public static final int action_bar_subtitle=0x7f0c004a;
-        public static final int action_bar_title=0x7f0c0049;
-        public static final int action_container=0x7f0c007c;
-        public static final int action_context_bar=0x7f0c006c;
-        public static final int action_divider=0x7f0c0087;
-        public static final int action_image=0x7f0c007d;
+        public static final int action_bar_subtitle=0x7f0c004b;
+        public static final int action_bar_title=0x7f0c004a;
+        public static final int action_container=0x7f0c007d;
+        public static final int action_context_bar=0x7f0c006d;
+        public static final int action_divider=0x7f0c0088;
+        public static final int action_image=0x7f0c007e;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
-        public static final int action_mode_bar=0x7f0c0068;
-        public static final int action_mode_bar_stub=0x7f0c0067;
-        public static final int action_mode_close_button=0x7f0c004b;
-        public static final int action_text=0x7f0c007e;
-        public static final int actions=0x7f0c0088;
-        public static final int activity_chooser_view_content=0x7f0c004c;
-        public static final int add=0x7f0c001a;
-        public static final int alertTitle=0x7f0c005f;
-        public static final int all=0x7f0c0030;
-        public static final int always=0x7f0c0044;
-        public static final int async=0x7f0c0031;
-        public static final int beginning=0x7f0c003c;
-        public static final int blocking=0x7f0c0032;
-        public static final int bottom=0x7f0c0022;
-        public static final int buttonPanel=0x7f0c0052;
-        public static final int catalyst_redbox_title=0x7f0c008c;
-        public static final int center=0x7f0c0023;
-        public static final int centerCrop=0x7f0c0035;
-        public static final int centerInside=0x7f0c0036;
-        public static final int center_horizontal=0x7f0c0024;
-        public static final int center_vertical=0x7f0c0025;
-        public static final int checkbox=0x7f0c0062;
-        public static final int chronometer=0x7f0c0084;
-        public static final int clip_horizontal=0x7f0c0026;
-        public static final int clip_vertical=0x7f0c0027;
-        public static final int collapseActionView=0x7f0c0045;
-        public static final int contentPanel=0x7f0c0055;
-        public static final int custom=0x7f0c005c;
-        public static final int customPanel=0x7f0c005b;
-        public static final int decor_content_parent=0x7f0c0069;
-        public static final int default_activity_button=0x7f0c004f;
-        public static final int disableHome=0x7f0c0013;
-        public static final int edit_query=0x7f0c006d;
-        public static final int end=0x7f0c0028;
-        public static final int expand_activities_button=0x7f0c004d;
-        public static final int expanded_menu=0x7f0c0061;
-        public static final int fill=0x7f0c0029;
-        public static final int fill_horizontal=0x7f0c002a;
-        public static final int fill_vertical=0x7f0c002b;
-        public static final int fitCenter=0x7f0c0037;
-        public static final int fitEnd=0x7f0c0038;
-        public static final int fitStart=0x7f0c0039;
-        public static final int fitXY=0x7f0c003a;
-        public static final int focusCrop=0x7f0c003b;
-        public static final int forever=0x7f0c0033;
-        public static final int fps_text=0x7f0c007b;
+        public static final int action_mode_bar=0x7f0c0069;
+        public static final int action_mode_bar_stub=0x7f0c0068;
+        public static final int action_mode_close_button=0x7f0c004c;
+        public static final int action_text=0x7f0c007f;
+        public static final int actions=0x7f0c0089;
+        public static final int activity_chooser_view_content=0x7f0c004d;
+        public static final int add=0x7f0c001b;
+        public static final int alertTitle=0x7f0c0060;
+        public static final int all=0x7f0c0031;
+        public static final int always=0x7f0c0045;
+        public static final int async=0x7f0c0032;
+        public static final int beginning=0x7f0c003d;
+        public static final int blocking=0x7f0c0033;
+        public static final int bottom=0x7f0c0023;
+        public static final int buttonPanel=0x7f0c0053;
+        public static final int catalyst_redbox_title=0x7f0c008d;
+        public static final int center=0x7f0c0024;
+        public static final int centerCrop=0x7f0c0036;
+        public static final int centerInside=0x7f0c0037;
+        public static final int center_horizontal=0x7f0c0025;
+        public static final int center_vertical=0x7f0c0026;
+        public static final int checkbox=0x7f0c0063;
+        public static final int chronometer=0x7f0c0085;
+        public static final int clip_horizontal=0x7f0c0027;
+        public static final int clip_vertical=0x7f0c0028;
+        public static final int collapseActionView=0x7f0c0046;
+        public static final int contentPanel=0x7f0c0056;
+        public static final int custom=0x7f0c005d;
+        public static final int customPanel=0x7f0c005c;
+        public static final int decor_content_parent=0x7f0c006a;
+        public static final int default_activity_button=0x7f0c0050;
+        public static final int disableHome=0x7f0c0014;
+        public static final int edit_query=0x7f0c006e;
+        public static final int end=0x7f0c0029;
+        public static final int expand_activities_button=0x7f0c004e;
+        public static final int expanded_menu=0x7f0c0062;
+        public static final int fill=0x7f0c002a;
+        public static final int fill_horizontal=0x7f0c002b;
+        public static final int fill_vertical=0x7f0c002c;
+        public static final int fitCenter=0x7f0c0038;
+        public static final int fitEnd=0x7f0c0039;
+        public static final int fitStart=0x7f0c003a;
+        public static final int fitXY=0x7f0c003b;
+        public static final int focusCrop=0x7f0c003c;
+        public static final int forever=0x7f0c0034;
+        public static final int fps_text=0x7f0c007c;
         public static final int home=0x7f0c0004;
-        public static final int homeAsUp=0x7f0c0014;
-        public static final int icon=0x7f0c0051;
-        public static final int icon_group=0x7f0c0089;
-        public static final int ifRoom=0x7f0c0046;
-        public static final int image=0x7f0c004e;
-        public static final int info=0x7f0c0085;
-        public static final int italic=0x7f0c0034;
-        public static final int item_touch_helper_previous_elevation=0x7f0c0005;
-        public static final int left=0x7f0c002c;
-        public static final int line1=0x7f0c0006;
-        public static final int line3=0x7f0c0007;
-        public static final int listMode=0x7f0c0010;
-        public static final int list_item=0x7f0c0050;
-        public static final int message=0x7f0c007a;
-        public static final int middle=0x7f0c003d;
-        public static final int multiply=0x7f0c001b;
-        public static final int never=0x7f0c0047;
-        public static final int none=0x7f0c0015;
-        public static final int normal=0x7f0c0011;
-        public static final int notification_background=0x7f0c007f;
-        public static final int notification_main_column=0x7f0c0081;
-        public static final int notification_main_column_container=0x7f0c0080;
-        public static final int parentPanel=0x7f0c0054;
-        public static final int progress_circular=0x7f0c0008;
-        public static final int progress_horizontal=0x7f0c0009;
-        public static final int radio=0x7f0c0064;
-        public static final int right=0x7f0c002d;
-        public static final int right_icon=0x7f0c0086;
-        public static final int right_side=0x7f0c0082;
-        public static final int rn_frame_file=0x7f0c008b;
-        public static final int rn_frame_method=0x7f0c008a;
-        public static final int rn_redbox_reloadjs=0x7f0c008e;
-        public static final int rn_redbox_stack=0x7f0c008d;
-        public static final int screen=0x7f0c001c;
-        public static final int scrollIndicatorDown=0x7f0c005a;
-        public static final int scrollIndicatorUp=0x7f0c0056;
-        public static final int scrollView=0x7f0c0057;
-        public static final int search_badge=0x7f0c006f;
-        public static final int search_bar=0x7f0c006e;
-        public static final int search_button=0x7f0c0070;
-        public static final int search_close_btn=0x7f0c0075;
-        public static final int search_edit_frame=0x7f0c0071;
-        public static final int search_go_btn=0x7f0c0077;
-        public static final int search_mag_icon=0x7f0c0072;
-        public static final int search_plate=0x7f0c0073;
-        public static final int search_src_text=0x7f0c0074;
-        public static final int search_voice_btn=0x7f0c0078;
-        public static final int select_dialog_listview=0x7f0c0079;
-        public static final int shortcut=0x7f0c0063;
-        public static final int showCustom=0x7f0c0016;
-        public static final int showHome=0x7f0c0017;
-        public static final int showTitle=0x7f0c0018;
-        public static final int spacer=0x7f0c0053;
+        public static final int homeAsUp=0x7f0c0015;
+        public static final int icon=0x7f0c0052;
+        public static final int icon_group=0x7f0c008a;
+        public static final int ifRoom=0x7f0c0047;
+        public static final int image=0x7f0c004f;
+        public static final int info=0x7f0c0086;
+        public static final int italic=0x7f0c0035;
+        public static final int left=0x7f0c002d;
+        public static final int line1=0x7f0c0005;
+        public static final int line3=0x7f0c0006;
+        public static final int listMode=0x7f0c0011;
+        public static final int list_item=0x7f0c0051;
+        public static final int message=0x7f0c007b;
+        public static final int middle=0x7f0c003e;
+        public static final int multiply=0x7f0c001c;
+        public static final int never=0x7f0c0048;
+        public static final int none=0x7f0c0016;
+        public static final int normal=0x7f0c0012;
+        public static final int notification_background=0x7f0c0080;
+        public static final int notification_main_column=0x7f0c0082;
+        public static final int notification_main_column_container=0x7f0c0081;
+        public static final int parentPanel=0x7f0c0055;
+        public static final int progress_circular=0x7f0c0007;
+        public static final int progress_horizontal=0x7f0c0008;
+        public static final int radio=0x7f0c0065;
+        public static final int react_test_id=0x7f0c0009;
+        public static final int right=0x7f0c002e;
+        public static final int right_icon=0x7f0c0087;
+        public static final int right_side=0x7f0c0083;
+        public static final int rn_frame_file=0x7f0c008c;
+        public static final int rn_frame_method=0x7f0c008b;
+        public static final int rn_redbox_copy_button=0x7f0c0094;
+        public static final int rn_redbox_dismiss_button=0x7f0c0092;
+        public static final int rn_redbox_line_separator=0x7f0c008f;
+        public static final int rn_redbox_loading_indicator=0x7f0c0090;
+        public static final int rn_redbox_reload_button=0x7f0c0093;
+        public static final int rn_redbox_report_button=0x7f0c0095;
+        public static final int rn_redbox_report_label=0x7f0c0091;
+        public static final int rn_redbox_stack=0x7f0c008e;
+        public static final int screen=0x7f0c001d;
+        public static final int scrollIndicatorDown=0x7f0c005b;
+        public static final int scrollIndicatorUp=0x7f0c0057;
+        public static final int scrollView=0x7f0c0058;
+        public static final int search_badge=0x7f0c0070;
+        public static final int search_bar=0x7f0c006f;
+        public static final int search_button=0x7f0c0071;
+        public static final int search_close_btn=0x7f0c0076;
+        public static final int search_edit_frame=0x7f0c0072;
+        public static final int search_go_btn=0x7f0c0078;
+        public static final int search_mag_icon=0x7f0c0073;
+        public static final int search_plate=0x7f0c0074;
+        public static final int search_src_text=0x7f0c0075;
+        public static final int search_voice_btn=0x7f0c0079;
+        public static final int select_dialog_listview=0x7f0c007a;
+        public static final int shortcut=0x7f0c0064;
+        public static final int showCustom=0x7f0c0017;
+        public static final int showHome=0x7f0c0018;
+        public static final int showTitle=0x7f0c0019;
+        public static final int spacer=0x7f0c0054;
         public static final int split_action_bar=0x7f0c000a;
-        public static final int src_atop=0x7f0c001d;
-        public static final int src_in=0x7f0c001e;
-        public static final int src_over=0x7f0c001f;
-        public static final int start=0x7f0c002e;
-        public static final int submenuarrow=0x7f0c0065;
-        public static final int submit_area=0x7f0c0076;
-        public static final int tabMode=0x7f0c0012;
+        public static final int src_atop=0x7f0c001e;
+        public static final int src_in=0x7f0c001f;
+        public static final int src_over=0x7f0c0020;
+        public static final int start=0x7f0c002f;
+        public static final int submenuarrow=0x7f0c0066;
+        public static final int submit_area=0x7f0c0077;
+        public static final int tabMode=0x7f0c0013;
         public static final int tag_transition_group=0x7f0c000b;
         public static final int text=0x7f0c000c;
         public static final int text2=0x7f0c000d;
-        public static final int textSpacerNoButtons=0x7f0c0059;
-        public static final int textSpacerNoTitle=0x7f0c0058;
-        public static final int time=0x7f0c0083;
+        public static final int textSpacerNoButtons=0x7f0c005a;
+        public static final int textSpacerNoTitle=0x7f0c0059;
+        public static final int time=0x7f0c0084;
         public static final int title=0x7f0c000e;
-        public static final int titleDividerNoCustom=0x7f0c0060;
-        public static final int title_template=0x7f0c005e;
-        public static final int top=0x7f0c002f;
-        public static final int topPanel=0x7f0c005d;
-        public static final int uniform=0x7f0c0020;
+        public static final int titleDividerNoCustom=0x7f0c0061;
+        public static final int title_template=0x7f0c005f;
+        public static final int top=0x7f0c0030;
+        public static final int topPanel=0x7f0c005e;
+        public static final int uniform=0x7f0c0021;
         public static final int up=0x7f0c000f;
-        public static final int useLogo=0x7f0c0019;
-        public static final int withText=0x7f0c0048;
-        public static final int wrap_content=0x7f0c0021;
+        public static final int useLogo=0x7f0c001a;
+        public static final int view_tag_native_id=0x7f0c0010;
+        public static final int withText=0x7f0c0049;
+        public static final int wrap_content=0x7f0c0022;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0d0000;
@@ -2642,20 +2642,21 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040018;
         public static final int abc_select_dialog_material=0x7f040019;
         public static final int abc_tooltip=0x7f04001a;
-        public static final int fps_view=0x7f04001b;
-        public static final int notification_action=0x7f04001c;
-        public static final int notification_action_tombstone=0x7f04001d;
-        public static final int notification_template_custom_big=0x7f04001e;
-        public static final int notification_template_icon_group=0x7f04001f;
-        public static final int notification_template_part_chronometer=0x7f040020;
-        public static final int notification_template_part_time=0x7f040021;
-        public static final int redbox_item_frame=0x7f040022;
-        public static final int redbox_item_title=0x7f040023;
-        public static final int redbox_view=0x7f040024;
-        public static final int select_dialog_item_material=0x7f040025;
-        public static final int select_dialog_multichoice_material=0x7f040026;
-        public static final int select_dialog_singlechoice_material=0x7f040027;
-        public static final int support_simple_spinner_dropdown_item=0x7f040028;
+        public static final int dev_loading_view=0x7f04001b;
+        public static final int fps_view=0x7f04001c;
+        public static final int notification_action=0x7f04001d;
+        public static final int notification_action_tombstone=0x7f04001e;
+        public static final int notification_template_custom_big=0x7f04001f;
+        public static final int notification_template_icon_group=0x7f040020;
+        public static final int notification_template_part_chronometer=0x7f040021;
+        public static final int notification_template_part_time=0x7f040022;
+        public static final int redbox_item_frame=0x7f040023;
+        public static final int redbox_item_title=0x7f040024;
+        public static final int redbox_view=0x7f040025;
+        public static final int select_dialog_item_material=0x7f040026;
+        public static final int select_dialog_multichoice_material=0x7f040027;
+        public static final int select_dialog_singlechoice_material=0x7f040028;
+        public static final int support_simple_spinner_dropdown_item=0x7f040029;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2670,18 +2671,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f070005;
         public static final int abc_capital_off=0x7f070006;
         public static final int abc_capital_on=0x7f070007;
-        public static final int abc_font_family_body_1_material=0x7f07001b;
-        public static final int abc_font_family_body_2_material=0x7f07001c;
-        public static final int abc_font_family_button_material=0x7f07001d;
-        public static final int abc_font_family_caption_material=0x7f07001e;
-        public static final int abc_font_family_display_1_material=0x7f07001f;
-        public static final int abc_font_family_display_2_material=0x7f070020;
-        public static final int abc_font_family_display_3_material=0x7f070021;
-        public static final int abc_font_family_display_4_material=0x7f070022;
-        public static final int abc_font_family_headline_material=0x7f070023;
-        public static final int abc_font_family_menu_material=0x7f070024;
-        public static final int abc_font_family_subhead_material=0x7f070025;
-        public static final int abc_font_family_title_material=0x7f070026;
+        public static final int abc_font_family_body_1_material=0x7f070013;
+        public static final int abc_font_family_body_2_material=0x7f070014;
+        public static final int abc_font_family_button_material=0x7f070015;
+        public static final int abc_font_family_caption_material=0x7f070016;
+        public static final int abc_font_family_display_1_material=0x7f070017;
+        public static final int abc_font_family_display_2_material=0x7f070018;
+        public static final int abc_font_family_display_3_material=0x7f070019;
+        public static final int abc_font_family_display_4_material=0x7f07001a;
+        public static final int abc_font_family_headline_material=0x7f07001b;
+        public static final int abc_font_family_menu_material=0x7f07001c;
+        public static final int abc_font_family_subhead_material=0x7f07001d;
+        public static final int abc_font_family_title_material=0x7f07001e;
         public static final int abc_search_hint=0x7f070008;
         public static final int abc_searchview_description_clear=0x7f070009;
         public static final int abc_searchview_description_query=0x7f07000a;
@@ -2691,27 +2692,31 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f07000e;
         public static final int abc_shareactionprovider_share_with_application=0x7f07000f;
         public static final int abc_toolbar_collapse_description=0x7f070010;
-        public static final int app_name=0x7f070027;
-        public static final int catalyst_debugjs=0x7f070013;
-        public static final int catalyst_debugjs_off=0x7f070028;
-        public static final int catalyst_element_inspector=0x7f070014;
-        public static final int catalyst_element_inspector_off=0x7f070029;
-        public static final int catalyst_hot_module_replacement=0x7f07002a;
-        public static final int catalyst_hot_module_replacement_off=0x7f07002b;
-        public static final int catalyst_jsload_error=0x7f070015;
-        public static final int catalyst_jsload_message=0x7f070016;
-        public static final int catalyst_jsload_title=0x7f070017;
-        public static final int catalyst_live_reload=0x7f07002c;
-        public static final int catalyst_live_reload_off=0x7f07002d;
+        public static final int app_name=0x7f07001f;
+        public static final int catalyst_copy_button=0x7f070020;
+        public static final int catalyst_debugjs=0x7f070021;
+        public static final int catalyst_debugjs_nuclide=0x7f070022;
+        public static final int catalyst_debugjs_nuclide_failure=0x7f070023;
+        public static final int catalyst_debugjs_off=0x7f070024;
+        public static final int catalyst_dismiss_button=0x7f070025;
+        public static final int catalyst_element_inspector=0x7f070026;
+        public static final int catalyst_heap_capture=0x7f070027;
+        public static final int catalyst_hot_module_replacement=0x7f070028;
+        public static final int catalyst_hot_module_replacement_off=0x7f070029;
+        public static final int catalyst_jsload_error=0x7f07002a;
+        public static final int catalyst_live_reload=0x7f07002b;
+        public static final int catalyst_live_reload_off=0x7f07002c;
+        public static final int catalyst_loading_from_url=0x7f07002d;
         public static final int catalyst_perf_monitor=0x7f07002e;
         public static final int catalyst_perf_monitor_off=0x7f07002f;
-        public static final int catalyst_reloadjs=0x7f070018;
-        public static final int catalyst_remotedbg_error=0x7f070030;
-        public static final int catalyst_remotedbg_message=0x7f070031;
-        public static final int catalyst_settings=0x7f070019;
-        public static final int catalyst_settings_title=0x7f07001a;
-        public static final int catalyst_start_profile=0x7f070032;
-        public static final int catalyst_stop_profile=0x7f070033;
+        public static final int catalyst_poke_sampling_profiler=0x7f070030;
+        public static final int catalyst_reload_button=0x7f070031;
+        public static final int catalyst_reloadjs=0x7f070032;
+        public static final int catalyst_remotedbg_error=0x7f070033;
+        public static final int catalyst_remotedbg_message=0x7f070034;
+        public static final int catalyst_report_button=0x7f070035;
+        public static final int catalyst_settings=0x7f070036;
+        public static final int catalyst_settings_title=0x7f070037;
         public static final int search_menu_title=0x7f070011;
         public static final int status_bar_notification_info_overflow=0x7f070012;
     }
@@ -2878,6 +2883,12 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f09006a;
         public static final int Base_Widget_AppCompat_Toolbar=0x7f090089;
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f09006b;
+        public static final int CalendarDatePickerDialog=0x7f0900c5;
+        public static final int CalendarDatePickerStyle=0x7f0900c6;
+        public static final int ClockTimePickerDialog=0x7f0900c7;
+        public static final int ClockTimePickerStyle=0x7f0900c8;
+        public static final int DialogAnimationFade=0x7f0900c9;
+        public static final int DialogAnimationSlide=0x7f0900ca;
         public static final int Platform_AppCompat=0x7f09006c;
         public static final int Platform_AppCompat_Light=0x7f09006d;
         public static final int Platform_ThemeOverlay_AppCompat=0x7f09006e;
@@ -2887,7 +2898,7 @@ containing a value of this type.
         public static final int Platform_V21_AppCompat_Light=0x7f090072;
         public static final int Platform_V25_AppCompat=0x7f090084;
         public static final int Platform_V25_AppCompat_Light=0x7f090085;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0900c5;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0900cb;
         public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f09000c;
         public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f09000d;
         public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f09000e;
@@ -2902,65 +2913,69 @@ containing a value of this type.
         public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f090017;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f090018;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f090019;
-        public static final int TextAppearance_AppCompat=0x7f0900c6;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0900c7;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0900c8;
-        public static final int TextAppearance_AppCompat_Button=0x7f0900c9;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0900ca;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0900cb;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0900cc;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0900cd;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0900ce;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0900cf;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0900d0;
-        public static final int TextAppearance_AppCompat_Large=0x7f0900d1;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0900d2;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0900d3;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0900d4;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0900d5;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0900d6;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0900d7;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0900d8;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0900d9;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0900da;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0900db;
-        public static final int TextAppearance_AppCompat_Small=0x7f0900dc;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0900dd;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0900de;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0900df;
-        public static final int TextAppearance_AppCompat_Title=0x7f0900e0;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0900e1;
+        public static final int SpinnerDatePickerDialog=0x7f0900cc;
+        public static final int SpinnerDatePickerStyle=0x7f0900cd;
+        public static final int SpinnerTimePickerDialog=0x7f0900ce;
+        public static final int SpinnerTimePickerStyle=0x7f0900cf;
+        public static final int TextAppearance_AppCompat=0x7f0900d0;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0900d1;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0900d2;
+        public static final int TextAppearance_AppCompat_Button=0x7f0900d3;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0900d4;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0900d5;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0900d6;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0900d7;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0900d8;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0900d9;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0900da;
+        public static final int TextAppearance_AppCompat_Large=0x7f0900db;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0900dc;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0900dd;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0900de;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0900df;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0900e0;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0900e1;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0900e2;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0900e3;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0900e4;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0900e5;
+        public static final int TextAppearance_AppCompat_Small=0x7f0900e6;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0900e7;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0900e8;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0900e9;
+        public static final int TextAppearance_AppCompat_Title=0x7f0900ea;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0900eb;
         public static final int TextAppearance_AppCompat_Tooltip=0x7f09000b;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0900e2;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0900e3;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0900e4;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0900e5;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0900e6;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0900e7;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0900e8;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0900e9;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0900ea;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0900eb;
-        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0900ec;
-        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0900ed;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0900ee;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900ef;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0900f0;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0900f1;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0900f2;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0900f3;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0900f4;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0900ec;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0900ed;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0900ee;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0900ef;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0900f0;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0900f1;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0900f2;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0900f3;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0900f4;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0900f5;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0900f6;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0900f7;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0900f8;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900f9;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0900fa;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0900fb;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0900fc;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0900fd;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0900fe;
         public static final int TextAppearance_Compat_Notification=0x7f090073;
         public static final int TextAppearance_Compat_Notification_Info=0x7f090074;
-        public static final int TextAppearance_Compat_Notification_Line2=0x7f0900f5;
+        public static final int TextAppearance_Compat_Notification_Line2=0x7f0900ff;
         public static final int TextAppearance_Compat_Notification_Time=0x7f090075;
         public static final int TextAppearance_Compat_Notification_Title=0x7f090076;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0900f6;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0900f7;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0900f8;
-        public static final int Theme=0x7f0900f9;
-        public static final int Theme_AppCompat=0x7f0900fa;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0900fb;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f090100;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f090101;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090102;
+        public static final int Theme=0x7f090103;
+        public static final int Theme_AppCompat=0x7f090104;
+        public static final int Theme_AppCompat_CompactMenu=0x7f090105;
         public static final int Theme_AppCompat_DayNight=0x7f090004;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f090005;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f090006;
@@ -2968,104 +2983,107 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f090008;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f090009;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f09000a;
-        public static final int Theme_AppCompat_Dialog=0x7f0900fc;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0900fd;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0900fe;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0900ff;
-        public static final int Theme_AppCompat_Light=0x7f090100;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f090101;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f090102;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f090103;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f090104;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f090105;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f090106;
-        public static final int Theme_AppCompat_NoActionBar=0x7f090107;
-        public static final int Theme_Catalyst=0x7f090108;
-        public static final int Theme_Catalyst_RedBox=0x7f090109;
-        public static final int Theme_ReactNative_AppCompat_Light=0x7f09010a;
-        public static final int Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen=0x7f09010b;
-        public static final int ThemeOverlay_AppCompat=0x7f09010c;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f09010d;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f09010e;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f09010f;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f090110;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f090111;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f090112;
-        public static final int Widget_AppCompat_ActionBar=0x7f090113;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f090114;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f090115;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f090116;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f090117;
-        public static final int Widget_AppCompat_ActionButton=0x7f090118;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f090119;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f09011a;
-        public static final int Widget_AppCompat_ActionMode=0x7f09011b;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f09011c;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f09011d;
-        public static final int Widget_AppCompat_Button=0x7f09011e;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f09011f;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f090120;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f090121;
-        public static final int Widget_AppCompat_Button_Colored=0x7f090122;
-        public static final int Widget_AppCompat_Button_Small=0x7f090123;
-        public static final int Widget_AppCompat_ButtonBar=0x7f090124;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f090125;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f090126;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f090127;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f090128;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f090129;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f09012a;
-        public static final int Widget_AppCompat_EditText=0x7f09012b;
-        public static final int Widget_AppCompat_ImageButton=0x7f09012c;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f09012d;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f09012e;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f09012f;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f090130;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f090131;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f090132;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090133;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f090134;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f090135;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f090136;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f090137;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f090138;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f090139;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f09013a;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f09013b;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f09013c;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f09013d;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f09013e;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f09013f;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f090140;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f090141;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f090142;
-        public static final int Widget_AppCompat_ListMenuView=0x7f090143;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f090144;
-        public static final int Widget_AppCompat_ListView=0x7f090145;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f090146;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f090147;
-        public static final int Widget_AppCompat_PopupMenu=0x7f090148;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f090149;
-        public static final int Widget_AppCompat_PopupWindow=0x7f09014a;
-        public static final int Widget_AppCompat_ProgressBar=0x7f09014b;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f09014c;
-        public static final int Widget_AppCompat_RatingBar=0x7f09014d;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f09014e;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f09014f;
-        public static final int Widget_AppCompat_SearchView=0x7f090150;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f090151;
-        public static final int Widget_AppCompat_SeekBar=0x7f090152;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f090153;
-        public static final int Widget_AppCompat_Spinner=0x7f090154;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f090155;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f090156;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f090157;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090158;
-        public static final int Widget_AppCompat_Toolbar=0x7f090159;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f09015a;
+        public static final int Theme_AppCompat_Dialog=0x7f090106;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f090107;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f090108;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f090109;
+        public static final int Theme_AppCompat_Light=0x7f09010a;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f09010b;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f09010c;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f09010d;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f09010e;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f09010f;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f090110;
+        public static final int Theme_AppCompat_NoActionBar=0x7f090111;
+        public static final int Theme_Catalyst=0x7f090112;
+        public static final int Theme_Catalyst_RedBox=0x7f090113;
+        public static final int Theme_FullScreenDialog=0x7f090114;
+        public static final int Theme_FullScreenDialogAnimatedFade=0x7f090115;
+        public static final int Theme_FullScreenDialogAnimatedSlide=0x7f090116;
+        public static final int Theme_ReactNative_AppCompat_Light=0x7f090117;
+        public static final int Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen=0x7f090118;
+        public static final int ThemeOverlay_AppCompat=0x7f090119;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f09011a;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f09011b;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f09011c;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f09011d;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f09011e;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f09011f;
+        public static final int Widget_AppCompat_ActionBar=0x7f090120;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f090121;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f090122;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f090123;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f090124;
+        public static final int Widget_AppCompat_ActionButton=0x7f090125;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f090126;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f090127;
+        public static final int Widget_AppCompat_ActionMode=0x7f090128;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f090129;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f09012a;
+        public static final int Widget_AppCompat_Button=0x7f09012b;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f09012c;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f09012d;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f09012e;
+        public static final int Widget_AppCompat_Button_Colored=0x7f09012f;
+        public static final int Widget_AppCompat_Button_Small=0x7f090130;
+        public static final int Widget_AppCompat_ButtonBar=0x7f090131;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f090132;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f090133;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f090134;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f090135;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f090136;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f090137;
+        public static final int Widget_AppCompat_EditText=0x7f090138;
+        public static final int Widget_AppCompat_ImageButton=0x7f090139;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f09013a;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f09013b;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f09013c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f09013d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f09013e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f09013f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090140;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f090141;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f090142;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f090143;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f090144;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f090145;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f090146;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f090147;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f090148;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f090149;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f09014a;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f09014b;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f09014c;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f09014d;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f09014e;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f09014f;
+        public static final int Widget_AppCompat_ListMenuView=0x7f090150;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f090151;
+        public static final int Widget_AppCompat_ListView=0x7f090152;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f090153;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f090154;
+        public static final int Widget_AppCompat_PopupMenu=0x7f090155;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f090156;
+        public static final int Widget_AppCompat_PopupWindow=0x7f090157;
+        public static final int Widget_AppCompat_ProgressBar=0x7f090158;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f090159;
+        public static final int Widget_AppCompat_RatingBar=0x7f09015a;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f09015b;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f09015c;
+        public static final int Widget_AppCompat_SearchView=0x7f09015d;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f09015e;
+        public static final int Widget_AppCompat_SeekBar=0x7f09015f;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f090160;
+        public static final int Widget_AppCompat_Spinner=0x7f090161;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f090162;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f090163;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f090164;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090165;
+        public static final int Widget_AppCompat_Toolbar=0x7f090166;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090167;
         public static final int Widget_Compat_NotificationActionContainer=0x7f090077;
         public static final int Widget_Compat_NotificationActionText=0x7f090078;
-        public static final int Widget_Support_CoordinatorLayout=0x7f09015b;
+        public static final int Widget_Support_CoordinatorLayout=0x7f090168;
     }
     public static final class xml {
         public static final int preferences=0x7f060000;
@@ -3077,35 +3095,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.mamarene.:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.mamarene.:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.mamarene.:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.mamarene.:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.mamarene.:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.mamarene.:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.mamarene.:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.mamarene.:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.mamarene.:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.mamarene.:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.mamarene.:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.mamarene.:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.mamarene.:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.mamarene.:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.mamarene.:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.mamarene.:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.mamarene.:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.mamarene.:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.mamarene.:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.mamarene.:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.mamarene.:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.mamarene.:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.mamarene.:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.mamarene.:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.mamarene.:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.mamarene.:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.mamarene.:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.mamarene.:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.mamarene.:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.mamarene.clickfacegame:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.mamarene.clickfacegame:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.mamarene.clickfacegame:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.mamarene.clickfacegame:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.mamarene.clickfacegame:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.mamarene.clickfacegame:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.mamarene.clickfacegame:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.mamarene.clickfacegame:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.mamarene.clickfacegame:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.mamarene.clickfacegame:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.mamarene.clickfacegame:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.mamarene.clickfacegame:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.mamarene.clickfacegame:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.mamarene.clickfacegame:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.mamarene.clickfacegame:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.mamarene.clickfacegame:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.mamarene.clickfacegame:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.mamarene.clickfacegame:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.mamarene.clickfacegame:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.mamarene.clickfacegame:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.mamarene.clickfacegame:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.mamarene.clickfacegame:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.mamarene.clickfacegame:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.mamarene.clickfacegame:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.mamarene.clickfacegame:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.mamarene.clickfacegame:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.mamarene.clickfacegame:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.mamarene.clickfacegame:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.mamarene.clickfacegame:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3148,17 +3166,17 @@ containing a value of this type.
             0x7f010065
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#background}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:background
+          @attr name com.mamarene.clickfacegame:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3166,11 +3184,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:backgroundSplit
+          @attr name com.mamarene.clickfacegame:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3178,11 +3196,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:backgroundStacked
+          @attr name com.mamarene.clickfacegame:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3194,11 +3212,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetEnd
+          @attr name com.mamarene.clickfacegame:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3210,11 +3228,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetEndWithActions
+          @attr name com.mamarene.clickfacegame:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3226,11 +3244,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetLeft
+          @attr name com.mamarene.clickfacegame:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3242,11 +3260,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetRight
+          @attr name com.mamarene.clickfacegame:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3258,11 +3276,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetStart
+          @attr name com.mamarene.clickfacegame:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3274,21 +3292,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetStartWithNavigation
+          @attr name com.mamarene.clickfacegame:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:customNavigationLayout
+          @attr name com.mamarene.clickfacegame:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3306,21 +3324,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:displayOptions
+          @attr name com.mamarene.clickfacegame:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#divider}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:divider
+          @attr name com.mamarene.clickfacegame:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3332,11 +3350,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:elevation
+          @attr name com.mamarene.clickfacegame:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#height}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3348,11 +3366,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:height
+          @attr name com.mamarene.clickfacegame:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3362,51 +3380,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:hideOnContentScroll
+          @attr name com.mamarene.clickfacegame:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:homeAsUpIndicator
+          @attr name com.mamarene.clickfacegame:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:homeLayout
+          @attr name com.mamarene.clickfacegame:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#icon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:icon
+          @attr name com.mamarene.clickfacegame:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:indeterminateProgressStyle
+          @attr name com.mamarene.clickfacegame:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3418,21 +3436,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:itemPadding
+          @attr name com.mamarene.clickfacegame:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#logo}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:logo
+          @attr name com.mamarene.clickfacegame:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3446,21 +3464,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:navigationMode
+          @attr name com.mamarene.clickfacegame:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:popupTheme
+          @attr name com.mamarene.clickfacegame:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3472,21 +3490,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:progressBarPadding
+          @attr name com.mamarene.clickfacegame:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:progressBarStyle
+          @attr name com.mamarene.clickfacegame:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3496,21 +3514,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:subtitle
+          @attr name com.mamarene.clickfacegame:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:subtitleTextStyle
+          @attr name com.mamarene.clickfacegame:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#title}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3520,17 +3538,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:title
+          @attr name com.mamarene.clickfacegame:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:titleTextStyle
+          @attr name com.mamarene.clickfacegame:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3582,12 +3600,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.mamarene.:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.mamarene.:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.mamarene.:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.mamarene.:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.mamarene.:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.mamarene.:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.mamarene.clickfacegame:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.mamarene.clickfacegame:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.mamarene.clickfacegame:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.mamarene.clickfacegame:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.mamarene.clickfacegame:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.mamarene.clickfacegame:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3601,17 +3619,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000f, 0x7f01001f
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#background}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:background
+          @attr name com.mamarene.clickfacegame:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3619,21 +3637,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:backgroundSplit
+          @attr name com.mamarene.clickfacegame:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:closeItemLayout
+          @attr name com.mamarene.clickfacegame:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#height}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3645,27 +3663,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:height
+          @attr name com.mamarene.clickfacegame:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:subtitleTextStyle
+          @attr name com.mamarene.clickfacegame:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:titleTextStyle
+          @attr name com.mamarene.clickfacegame:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3674,8 +3692,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.mamarene.:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.mamarene.:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.mamarene.clickfacegame:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.mamarene.clickfacegame:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3684,17 +3702,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:expandActivityOverflowButtonDrawable
+          @attr name com.mamarene.clickfacegame:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3704,7 +3722,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:initialActivityCount
+          @attr name com.mamarene.clickfacegame:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3714,13 +3732,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonIconDimen com.mamarene.:buttonIconDimen}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.mamarene.:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.mamarene.:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.mamarene.:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.mamarene.:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle com.mamarene.:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.mamarene.:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonIconDimen com.mamarene.clickfacegame:buttonIconDimen}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.mamarene.clickfacegame:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.mamarene.clickfacegame:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.mamarene.clickfacegame:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.mamarene.clickfacegame:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle com.mamarene.clickfacegame:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.mamarene.clickfacegame:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonIconDimen
@@ -3742,7 +3760,7 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonIconDimen}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonIconDimen}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3754,51 +3772,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:buttonIconDimen
+          @attr name com.mamarene.clickfacegame:buttonIconDimen
         */
         public static final int AlertDialog_buttonIconDimen = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonPanelSideLayout
+          @attr name com.mamarene.clickfacegame:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listItemLayout
+          @attr name com.mamarene.clickfacegame:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listLayout
+          @attr name com.mamarene.clickfacegame:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:multiChoiceItemLayout
+          @attr name com.mamarene.clickfacegame:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#showTitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -3808,17 +3826,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:showTitle
+          @attr name com.mamarene.clickfacegame:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:singleChoiceItemLayout
+          @attr name com.mamarene.clickfacegame:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatImageView.
@@ -3828,9 +3846,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.mamarene.:srcCompat}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tint com.mamarene.:tint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_tintMode com.mamarene.:tintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.mamarene.clickfacegame:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint com.mamarene.clickfacegame:tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode com.mamarene.clickfacegame:tintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -3847,17 +3865,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:srcCompat
+          @attr name com.mamarene.clickfacegame:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tint}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -3868,11 +3886,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:tint
+          @attr name com.mamarene.clickfacegame:tint
         */
         public static final int AppCompatImageView_tint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tintMode}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -3889,7 +3907,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:tintMode
+          @attr name com.mamarene.clickfacegame:tintMode
         */
         public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -3899,9 +3917,9 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.mamarene.:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.mamarene.:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.mamarene.:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.mamarene.clickfacegame:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.mamarene.clickfacegame:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.mamarene.clickfacegame:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -3918,17 +3936,17 @@ containing a value of this type.
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:tickMark
+          @attr name com.mamarene.clickfacegame:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3939,11 +3957,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:tickMarkTint
+          @attr name com.mamarene.clickfacegame:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3960,7 +3978,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:tickMarkTintMode
+          @attr name com.mamarene.clickfacegame:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -4038,13 +4056,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.mamarene.:autoSizeMaxTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.mamarene.:autoSizeMinTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.mamarene.:autoSizePresetSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.mamarene.:autoSizeStepGranularity}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.mamarene.:autoSizeTextType}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_fontFamily com.mamarene.:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.mamarene.:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.mamarene.clickfacegame:autoSizeMaxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.mamarene.clickfacegame:autoSizeMinTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.mamarene.clickfacegame:autoSizePresetSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.mamarene.clickfacegame:autoSizeStepGranularity}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.mamarene.clickfacegame:autoSizeTextType}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_fontFamily com.mamarene.clickfacegame:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.mamarene.clickfacegame:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4066,7 +4084,7 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoSizeMaxTextSize}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoSizeMaxTextSize}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4078,11 +4096,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:autoSizeMaxTextSize
+          @attr name com.mamarene.clickfacegame:autoSizeMaxTextSize
         */
         public static final int AppCompatTextView_autoSizeMaxTextSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoSizeMinTextSize}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoSizeMinTextSize}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4094,21 +4112,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:autoSizeMinTextSize
+          @attr name com.mamarene.clickfacegame:autoSizeMinTextSize
         */
         public static final int AppCompatTextView_autoSizeMinTextSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoSizePresetSizes}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoSizePresetSizes}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:autoSizePresetSizes
+          @attr name com.mamarene.clickfacegame:autoSizePresetSizes
         */
         public static final int AppCompatTextView_autoSizePresetSizes = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoSizeStepGranularity}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoSizeStepGranularity}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4120,11 +4138,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:autoSizeStepGranularity
+          @attr name com.mamarene.clickfacegame:autoSizeStepGranularity
         */
         public static final int AppCompatTextView_autoSizeStepGranularity = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoSizeTextType}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoSizeTextType}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4137,11 +4155,11 @@ containing a value of this type.
 <tr><td><code>none</code></td><td>0</td><td></td></tr>
 <tr><td><code>uniform</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:autoSizeTextType
+          @attr name com.mamarene.clickfacegame:autoSizeTextType
         */
         public static final int AppCompatTextView_autoSizeTextType = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontFamily}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontFamily}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -4151,18 +4169,18 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontFamily
+          @attr name com.mamarene.clickfacegame:fontFamily
         */
         public static final int AppCompatTextView_fontFamily = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.mamarene.:textAllCaps
+          @attr name com.mamarene.clickfacegame:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4171,126 +4189,126 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.mamarene.:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.mamarene.:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.mamarene.:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.mamarene.:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.mamarene.:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.mamarene.:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.mamarene.:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.mamarene.:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.mamarene.:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.mamarene.:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.mamarene.:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.mamarene.:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.mamarene.:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.mamarene.:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.mamarene.:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.mamarene.:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.mamarene.:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.mamarene.:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.mamarene.:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.mamarene.:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.mamarene.:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.mamarene.:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.mamarene.:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.mamarene.:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.mamarene.:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.mamarene.:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.mamarene.:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.mamarene.:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.mamarene.:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.mamarene.:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.mamarene.:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.mamarene.:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.mamarene.:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.mamarene.:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.mamarene.:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.mamarene.clickfacegame:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.mamarene.clickfacegame:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.mamarene.clickfacegame:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.mamarene.clickfacegame:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.mamarene.clickfacegame:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.mamarene.clickfacegame:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.mamarene.clickfacegame:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.mamarene.clickfacegame:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.mamarene.clickfacegame:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.mamarene.clickfacegame:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.mamarene.clickfacegame:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.mamarene.clickfacegame:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.mamarene.clickfacegame:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.mamarene.clickfacegame:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.mamarene.clickfacegame:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.mamarene.clickfacegame:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.mamarene.clickfacegame:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.mamarene.clickfacegame:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.mamarene.clickfacegame:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.mamarene.clickfacegame:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.mamarene.clickfacegame:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.mamarene.clickfacegame:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.mamarene.clickfacegame:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.mamarene.clickfacegame:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.mamarene.clickfacegame:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.mamarene.clickfacegame:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.mamarene.clickfacegame:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.mamarene.clickfacegame:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.mamarene.clickfacegame:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.mamarene.clickfacegame:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.mamarene.clickfacegame:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.mamarene.clickfacegame:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.mamarene.clickfacegame:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.mamarene.clickfacegame:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.mamarene.clickfacegame:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.mamarene.:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.mamarene.:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.mamarene.:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.mamarene.:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.mamarene.:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.mamarene.:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.mamarene.:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.mamarene.:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.mamarene.:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.mamarene.:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.mamarene.:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.mamarene.:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.mamarene.:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.mamarene.:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.mamarene.:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.mamarene.:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.mamarene.:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorError com.mamarene.:colorError}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.mamarene.:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.mamarene.:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.mamarene.:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.mamarene.:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.mamarene.:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.mamarene.:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.mamarene.:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.mamarene.:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.mamarene.:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.mamarene.:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.mamarene.:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.mamarene.:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.mamarene.:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.mamarene.:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.mamarene.:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.mamarene.:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.mamarene.:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.mamarene.:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.mamarene.:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.mamarene.:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.mamarene.:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.mamarene.:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.mamarene.:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.mamarene.:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.mamarene.:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.mamarene.:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.mamarene.:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.mamarene.:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.mamarene.:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.mamarene.:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.mamarene.:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.mamarene.:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.mamarene.:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.mamarene.:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.mamarene.:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.mamarene.:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.mamarene.:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.mamarene.:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.mamarene.:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.mamarene.:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.mamarene.:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.mamarene.:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.mamarene.:textAppearanceListItemSecondary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.mamarene.:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.mamarene.:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.mamarene.:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.mamarene.:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.mamarene.:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.mamarene.:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.mamarene.:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.mamarene.:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.mamarene.:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.mamarene.:tooltipForegroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.mamarene.:tooltipFrameBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.mamarene.:viewInflaterClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.mamarene.:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.mamarene.:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.mamarene.:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.mamarene.:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.mamarene.:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.mamarene.:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.mamarene.:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.mamarene.:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.mamarene.:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.mamarene.:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.mamarene.clickfacegame:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.mamarene.clickfacegame:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.mamarene.clickfacegame:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.mamarene.clickfacegame:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.mamarene.clickfacegame:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.mamarene.clickfacegame:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.mamarene.clickfacegame:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.mamarene.clickfacegame:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.mamarene.clickfacegame:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.mamarene.clickfacegame:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.mamarene.clickfacegame:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.mamarene.clickfacegame:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.mamarene.clickfacegame:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.mamarene.clickfacegame:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.mamarene.clickfacegame:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.mamarene.clickfacegame:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.mamarene.clickfacegame:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorError com.mamarene.clickfacegame:colorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.mamarene.clickfacegame:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.mamarene.clickfacegame:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.mamarene.clickfacegame:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.mamarene.clickfacegame:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.mamarene.clickfacegame:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.mamarene.clickfacegame:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.mamarene.clickfacegame:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.mamarene.clickfacegame:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.mamarene.clickfacegame:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.mamarene.clickfacegame:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.mamarene.clickfacegame:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.mamarene.clickfacegame:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.mamarene.clickfacegame:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.mamarene.clickfacegame:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.mamarene.clickfacegame:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.mamarene.clickfacegame:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.mamarene.clickfacegame:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.mamarene.clickfacegame:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.mamarene.clickfacegame:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.mamarene.clickfacegame:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.mamarene.clickfacegame:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.mamarene.clickfacegame:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.mamarene.clickfacegame:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.mamarene.clickfacegame:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.mamarene.clickfacegame:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.mamarene.clickfacegame:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.mamarene.clickfacegame:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.mamarene.clickfacegame:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.mamarene.clickfacegame:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.mamarene.clickfacegame:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.mamarene.clickfacegame:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.mamarene.clickfacegame:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.mamarene.clickfacegame:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.mamarene.clickfacegame:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.mamarene.clickfacegame:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.mamarene.clickfacegame:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.mamarene.clickfacegame:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.mamarene.clickfacegame:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.mamarene.clickfacegame:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.mamarene.clickfacegame:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.mamarene.clickfacegame:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.mamarene.clickfacegame:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.mamarene.clickfacegame:textAppearanceListItemSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.mamarene.clickfacegame:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.mamarene.clickfacegame:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.mamarene.clickfacegame:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.mamarene.clickfacegame:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.mamarene.clickfacegame:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.mamarene.clickfacegame:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.mamarene.clickfacegame:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.mamarene.clickfacegame:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.mamarene.clickfacegame:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.mamarene.clickfacegame:tooltipForegroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.mamarene.clickfacegame:tooltipFrameBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.mamarene.clickfacegame:viewInflaterClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.mamarene.clickfacegame:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.mamarene.clickfacegame:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.mamarene.clickfacegame:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.mamarene.clickfacegame:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.mamarene.clickfacegame:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.mamarene.clickfacegame:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.mamarene.clickfacegame:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.mamarene.clickfacegame:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.mamarene.clickfacegame:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.mamarene.clickfacegame:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4446,37 +4464,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarDivider
+          @attr name com.mamarene.clickfacegame:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarItemBackground
+          @attr name com.mamarene.clickfacegame:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarPopupTheme
+          @attr name com.mamarene.clickfacegame:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4496,111 +4514,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:actionBarSize
+          @attr name com.mamarene.clickfacegame:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarSplitStyle
+          @attr name com.mamarene.clickfacegame:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarStyle
+          @attr name com.mamarene.clickfacegame:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarTabBarStyle
+          @attr name com.mamarene.clickfacegame:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarTabStyle
+          @attr name com.mamarene.clickfacegame:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarTabTextStyle
+          @attr name com.mamarene.clickfacegame:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarTheme
+          @attr name com.mamarene.clickfacegame:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionBarWidgetTheme
+          @attr name com.mamarene.clickfacegame:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionButtonStyle
+          @attr name com.mamarene.clickfacegame:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionDropDownStyle
+          @attr name com.mamarene.clickfacegame:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionMenuTextAppearance
+          @attr name com.mamarene.clickfacegame:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4608,181 +4626,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:actionMenuTextColor
+          @attr name com.mamarene.clickfacegame:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeBackground
+          @attr name com.mamarene.clickfacegame:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeCloseButtonStyle
+          @attr name com.mamarene.clickfacegame:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeCloseDrawable
+          @attr name com.mamarene.clickfacegame:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeCopyDrawable
+          @attr name com.mamarene.clickfacegame:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeCutDrawable
+          @attr name com.mamarene.clickfacegame:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeFindDrawable
+          @attr name com.mamarene.clickfacegame:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModePasteDrawable
+          @attr name com.mamarene.clickfacegame:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModePopupWindowStyle
+          @attr name com.mamarene.clickfacegame:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeSelectAllDrawable
+          @attr name com.mamarene.clickfacegame:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeShareDrawable
+          @attr name com.mamarene.clickfacegame:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeSplitBackground
+          @attr name com.mamarene.clickfacegame:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeStyle
+          @attr name com.mamarene.clickfacegame:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionModeWebSearchDrawable
+          @attr name com.mamarene.clickfacegame:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionOverflowButtonStyle
+          @attr name com.mamarene.clickfacegame:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionOverflowMenuStyle
+          @attr name com.mamarene.clickfacegame:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:activityChooserViewStyle
+          @attr name com.mamarene.clickfacegame:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:alertDialogButtonGroupStyle
+          @attr name com.mamarene.clickfacegame:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4792,27 +4810,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:alertDialogCenterButtons
+          @attr name com.mamarene.clickfacegame:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 96;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:alertDialogStyle
+          @attr name com.mamarene.clickfacegame:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:alertDialogTheme
+          @attr name com.mamarene.clickfacegame:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 97;
         /**
@@ -4828,117 +4846,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:autoCompleteTextViewStyle
+          @attr name com.mamarene.clickfacegame:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:borderlessButtonStyle
+          @attr name com.mamarene.clickfacegame:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonBarButtonStyle
+          @attr name com.mamarene.clickfacegame:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonBarNegativeButtonStyle
+          @attr name com.mamarene.clickfacegame:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonBarNeutralButtonStyle
+          @attr name com.mamarene.clickfacegame:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonBarPositiveButtonStyle
+          @attr name com.mamarene.clickfacegame:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonBarStyle
+          @attr name com.mamarene.clickfacegame:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonStyle
+          @attr name com.mamarene.clickfacegame:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:buttonStyleSmall
+          @attr name com.mamarene.clickfacegame:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 104;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:checkboxStyle
+          @attr name com.mamarene.clickfacegame:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:checkedTextViewStyle
+          @attr name com.mamarene.clickfacegame:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4949,11 +4967,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorAccent
+          @attr name com.mamarene.clickfacegame:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 86;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4964,11 +4982,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorBackgroundFloating
+          @attr name com.mamarene.clickfacegame:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 93;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4979,11 +4997,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorButtonNormal
+          @attr name com.mamarene.clickfacegame:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4994,11 +5012,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorControlActivated
+          @attr name com.mamarene.clickfacegame:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 88;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5009,11 +5027,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorControlHighlight
+          @attr name com.mamarene.clickfacegame:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 89;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5024,11 +5042,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorControlNormal
+          @attr name com.mamarene.clickfacegame:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorError}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorError}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5036,11 +5054,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:colorError
+          @attr name com.mamarene.clickfacegame:colorError
         */
         public static final int AppCompatTheme_colorError = 118;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5051,11 +5069,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorPrimary
+          @attr name com.mamarene.clickfacegame:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 84;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5066,11 +5084,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorPrimaryDark
+          @attr name com.mamarene.clickfacegame:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 85;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5081,21 +5099,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:colorSwitchThumbNormal
+          @attr name com.mamarene.clickfacegame:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 91;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:controlBackground
+          @attr name com.mamarene.clickfacegame:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 92;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5107,51 +5125,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:dialogPreferredPadding
+          @attr name com.mamarene.clickfacegame:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:dialogTheme
+          @attr name com.mamarene.clickfacegame:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:dividerHorizontal
+          @attr name com.mamarene.clickfacegame:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:dividerVertical
+          @attr name com.mamarene.clickfacegame:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:dropDownListViewStyle
+          @attr name com.mamarene.clickfacegame:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5163,21 +5181,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:dropdownListPreferredItemHeight
+          @attr name com.mamarene.clickfacegame:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:editTextBackground
+          @attr name com.mamarene.clickfacegame:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5185,81 +5203,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:editTextColor
+          @attr name com.mamarene.clickfacegame:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:editTextStyle
+          @attr name com.mamarene.clickfacegame:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:homeAsUpIndicator
+          @attr name com.mamarene.clickfacegame:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:imageButtonStyle
+          @attr name com.mamarene.clickfacegame:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listChoiceBackgroundIndicator
+          @attr name com.mamarene.clickfacegame:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 83;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listDividerAlertDialog
+          @attr name com.mamarene.clickfacegame:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listMenuViewStyle
+          @attr name com.mamarene.clickfacegame:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:listPopupWindowStyle
+          @attr name com.mamarene.clickfacegame:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5271,11 +5289,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:listPreferredItemHeight
+          @attr name com.mamarene.clickfacegame:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5287,11 +5305,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:listPreferredItemHeightLarge
+          @attr name com.mamarene.clickfacegame:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5303,11 +5321,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:listPreferredItemHeightSmall
+          @attr name com.mamarene.clickfacegame:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5319,11 +5337,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:listPreferredItemPaddingLeft
+          @attr name com.mamarene.clickfacegame:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5335,31 +5353,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:listPreferredItemPaddingRight
+          @attr name com.mamarene.clickfacegame:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:panelBackground
+          @attr name com.mamarene.clickfacegame:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 80;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:panelMenuListTheme
+          @attr name com.mamarene.clickfacegame:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 82;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5371,221 +5389,221 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:panelMenuListWidth
+          @attr name com.mamarene.clickfacegame:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 81;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:popupMenuStyle
+          @attr name com.mamarene.clickfacegame:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:popupWindowStyle
+          @attr name com.mamarene.clickfacegame:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:radioButtonStyle
+          @attr name com.mamarene.clickfacegame:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:ratingBarStyle
+          @attr name com.mamarene.clickfacegame:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:ratingBarStyleIndicator
+          @attr name com.mamarene.clickfacegame:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 110;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:ratingBarStyleSmall
+          @attr name com.mamarene.clickfacegame:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 111;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:searchViewStyle
+          @attr name com.mamarene.clickfacegame:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:seekBarStyle
+          @attr name com.mamarene.clickfacegame:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:selectableItemBackground
+          @attr name com.mamarene.clickfacegame:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:selectableItemBackgroundBorderless
+          @attr name com.mamarene.clickfacegame:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:spinnerDropDownItemStyle
+          @attr name com.mamarene.clickfacegame:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:spinnerStyle
+          @attr name com.mamarene.clickfacegame:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:switchStyle
+          @attr name com.mamarene.clickfacegame:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceLargePopupMenu
+          @attr name com.mamarene.clickfacegame:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceListItem
+          @attr name com.mamarene.clickfacegame:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceListItemSecondary}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceListItemSecondary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceListItemSecondary
+          @attr name com.mamarene.clickfacegame:textAppearanceListItemSecondary
         */
         public static final int AppCompatTheme_textAppearanceListItemSecondary = 78;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceListItemSmall
+          @attr name com.mamarene.clickfacegame:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 79;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearancePopupMenuHeader
+          @attr name com.mamarene.clickfacegame:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceSearchResultSubtitle
+          @attr name com.mamarene.clickfacegame:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceSearchResultTitle
+          @attr name com.mamarene.clickfacegame:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:textAppearanceSmallPopupMenu
+          @attr name com.mamarene.clickfacegame:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5593,11 +5611,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:textColorAlertDialogListItem
+          @attr name com.mamarene.clickfacegame:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 98;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5605,31 +5623,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:textColorSearchUrl
+          @attr name com.mamarene.clickfacegame:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:toolbarNavigationButtonStyle
+          @attr name com.mamarene.clickfacegame:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:toolbarStyle
+          @attr name com.mamarene.clickfacegame:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tooltipForegroundColor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tooltipForegroundColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5637,21 +5655,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:tooltipForegroundColor
+          @attr name com.mamarene.clickfacegame:tooltipForegroundColor
         */
         public static final int AppCompatTheme_tooltipForegroundColor = 117;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tooltipFrameBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tooltipFrameBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:tooltipFrameBackground
+          @attr name com.mamarene.clickfacegame:tooltipFrameBackground
         */
         public static final int AppCompatTheme_tooltipFrameBackground = 116;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#viewInflaterClass}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#viewInflaterClass}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5661,11 +5679,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:viewInflaterClass
+          @attr name com.mamarene.clickfacegame:viewInflaterClass
         */
         public static final int AppCompatTheme_viewInflaterClass = 119;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5675,11 +5693,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowActionBar
+          @attr name com.mamarene.clickfacegame:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5689,11 +5707,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowActionBarOverlay
+          @attr name com.mamarene.clickfacegame:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5703,11 +5721,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowActionModeOverlay
+          @attr name com.mamarene.clickfacegame:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5722,11 +5740,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowFixedHeightMajor
+          @attr name com.mamarene.clickfacegame:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5741,11 +5759,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowFixedHeightMinor
+          @attr name com.mamarene.clickfacegame:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5760,11 +5778,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowFixedWidthMajor
+          @attr name com.mamarene.clickfacegame:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5779,11 +5797,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowFixedWidthMinor
+          @attr name com.mamarene.clickfacegame:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5798,11 +5816,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowMinWidthMajor
+          @attr name com.mamarene.clickfacegame:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5817,11 +5835,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowMinWidthMinor
+          @attr name com.mamarene.clickfacegame:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5831,7 +5849,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:windowNoTitle
+          @attr name com.mamarene.clickfacegame:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -5840,7 +5858,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.mamarene.:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.mamarene.clickfacegame:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -5848,7 +5866,7 @@ containing a value of this type.
             0x7f0100ac
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5858,7 +5876,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:allowStacking
+          @attr name com.mamarene.clickfacegame:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a ColorStateListItem.
@@ -5867,7 +5885,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.mamarene.:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha com.mamarene.clickfacegame:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -5879,7 +5897,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100ad
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -5889,7 +5907,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:alpha
+          @attr name com.mamarene.clickfacegame:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -5911,8 +5929,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.mamarene.:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.mamarene.:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.mamarene.clickfacegame:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.mamarene.clickfacegame:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -5928,7 +5946,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5939,11 +5957,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:buttonTint
+          @attr name com.mamarene.clickfacegame:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5960,7 +5978,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:buttonTintMode
+          @attr name com.mamarene.clickfacegame:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -5969,8 +5987,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.mamarene.:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.mamarene.:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.mamarene.clickfacegame:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.mamarene.clickfacegame:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -5979,17 +5997,17 @@ containing a value of this type.
             0x7f0100b0, 0x7f0100b1
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:keylines
+          @attr name com.mamarene.clickfacegame:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
@@ -5997,7 +6015,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.mamarene.:statusBarBackground
+          @attr name com.mamarene.clickfacegame:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -6007,12 +6025,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.mamarene.:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.mamarene.:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.mamarene.:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.mamarene.:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.mamarene.:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.mamarene.:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.mamarene.clickfacegame:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.mamarene.clickfacegame:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.mamarene.clickfacegame:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.mamarene.clickfacegame:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.mamarene.clickfacegame:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.mamarene.clickfacegame:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -6033,17 +6051,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:layout_anchor
+          @attr name com.mamarene.clickfacegame:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6068,11 +6086,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:layout_anchorGravity
+          @attr name com.mamarene.clickfacegame:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6082,11 +6100,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:layout_behavior
+          @attr name com.mamarene.clickfacegame:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6105,11 +6123,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:layout_dodgeInsetEdges
+          @attr name com.mamarene.clickfacegame:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6127,11 +6145,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:layout_insetEdge
+          @attr name com.mamarene.clickfacegame:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6141,7 +6159,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:layout_keyline
+          @attr name com.mamarene.clickfacegame:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -6150,14 +6168,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.mamarene.:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.mamarene.:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.mamarene.:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.mamarene.:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.mamarene.:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.mamarene.:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.mamarene.:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.mamarene.:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.mamarene.clickfacegame:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.mamarene.clickfacegame:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.mamarene.clickfacegame:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.mamarene.clickfacegame:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.mamarene.clickfacegame:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.mamarene.clickfacegame:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.mamarene.clickfacegame:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.mamarene.clickfacegame:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -6173,7 +6191,7 @@ containing a value of this type.
             0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6185,11 +6203,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:arrowHeadLength
+          @attr name com.mamarene.clickfacegame:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6201,11 +6219,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:arrowShaftLength
+          @attr name com.mamarene.clickfacegame:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6217,11 +6235,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:barLength
+          @attr name com.mamarene.clickfacegame:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#color}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6232,11 +6250,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:color
+          @attr name com.mamarene.clickfacegame:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6248,11 +6266,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:drawableSize
+          @attr name com.mamarene.clickfacegame:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6264,11 +6282,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:gapBetweenBars
+          @attr name com.mamarene.clickfacegame:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6278,11 +6296,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:spinBars
+          @attr name com.mamarene.clickfacegame:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6294,7 +6312,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:thickness
+          @attr name com.mamarene.clickfacegame:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FontFamily.
@@ -6303,12 +6321,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderAuthority com.mamarene.:fontProviderAuthority}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderCerts com.mamarene.:fontProviderCerts}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.mamarene.:fontProviderFetchStrategy}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.mamarene.:fontProviderFetchTimeout}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderPackage com.mamarene.:fontProviderPackage}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamily_fontProviderQuery com.mamarene.:fontProviderQuery}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderAuthority com.mamarene.clickfacegame:fontProviderAuthority}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderCerts com.mamarene.clickfacegame:fontProviderCerts}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.mamarene.clickfacegame:fontProviderFetchStrategy}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.mamarene.clickfacegame:fontProviderFetchTimeout}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderPackage com.mamarene.clickfacegame:fontProviderPackage}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderQuery com.mamarene.clickfacegame:fontProviderQuery}</code></td><td></td></tr>
            </table>
            @see #FontFamily_fontProviderAuthority
            @see #FontFamily_fontProviderCerts
@@ -6322,7 +6340,7 @@ containing a value of this type.
             0x7f0100c4, 0x7f0100c5
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderAuthority}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderAuthority}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -6332,21 +6350,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontProviderAuthority
+          @attr name com.mamarene.clickfacegame:fontProviderAuthority
         */
         public static final int FontFamily_fontProviderAuthority = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderCerts}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderCerts}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:fontProviderCerts
+          @attr name com.mamarene.clickfacegame:fontProviderCerts
         */
         public static final int FontFamily_fontProviderCerts = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderFetchStrategy}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderFetchStrategy}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -6359,11 +6377,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>blocking</code></td><td>0</td><td></td></tr>
 <tr><td><code>async</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:fontProviderFetchStrategy
+          @attr name com.mamarene.clickfacegame:fontProviderFetchStrategy
         */
         public static final int FontFamily_fontProviderFetchStrategy = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderFetchTimeout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderFetchTimeout}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -6381,11 +6399,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>forever</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:fontProviderFetchTimeout
+          @attr name com.mamarene.clickfacegame:fontProviderFetchTimeout
         */
         public static final int FontFamily_fontProviderFetchTimeout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderPackage}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderPackage}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -6395,11 +6413,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontProviderPackage
+          @attr name com.mamarene.clickfacegame:fontProviderPackage
         */
         public static final int FontFamily_fontProviderPackage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontProviderQuery}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontProviderQuery}
           attribute's value can be found in the {@link #FontFamily} array.
 
 
@@ -6409,7 +6427,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontProviderQuery
+          @attr name com.mamarene.clickfacegame:fontProviderQuery
         */
         public static final int FontFamily_fontProviderQuery = 2;
         /** Attributes that can be used with a FontFamilyFont.
@@ -6421,9 +6439,9 @@ containing a value of this type.
            <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
            <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_font com.mamarene.:font}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontStyle com.mamarene.:fontStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #FontFamilyFont_fontWeight com.mamarene.:fontWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_font com.mamarene.clickfacegame:font}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontStyle com.mamarene.clickfacegame:fontStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontWeight com.mamarene.clickfacegame:fontWeight}</code></td><td></td></tr>
            </table>
            @see #FontFamilyFont_android_font
            @see #FontFamilyFont_android_fontStyle
@@ -6455,17 +6473,17 @@ containing a value of this type.
         */
         public static final int FontFamilyFont_android_fontWeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#font}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#font}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:font
+          @attr name com.mamarene.clickfacegame:font
         */
         public static final int FontFamilyFont_font = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontStyle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontStyle}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
@@ -6478,11 +6496,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>italic</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:fontStyle
+          @attr name com.mamarene.clickfacegame:fontStyle
         */
         public static final int FontFamilyFont_fontStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontWeight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontWeight}
           attribute's value can be found in the {@link #FontFamilyFont} array.
 
 
@@ -6492,76 +6510,79 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontWeight
+          @attr name com.mamarene.clickfacegame:fontWeight
         */
         public static final int FontFamilyFont_fontWeight = 5;
-        /** Attributes that can be used with a GenericDraweeView.
+        /** Attributes that can be used with a GenericDraweeHierarchy.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GenericDraweeView_actualImageScaleType com.mamarene.:actualImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_backgroundImage com.mamarene.:backgroundImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_fadeDuration com.mamarene.:fadeDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_failureImage com.mamarene.:failureImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_failureImageScaleType com.mamarene.:failureImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_overlayImage com.mamarene.:overlayImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_placeholderImage com.mamarene.:placeholderImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_placeholderImageScaleType com.mamarene.:placeholderImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_pressedStateOverlayImage com.mamarene.:pressedStateOverlayImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarAutoRotateInterval com.mamarene.:progressBarAutoRotateInterval}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarImage com.mamarene.:progressBarImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_progressBarImageScaleType com.mamarene.:progressBarImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_retryImage com.mamarene.:retryImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_retryImageScaleType com.mamarene.:retryImageScaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundAsCircle com.mamarene.:roundAsCircle}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundBottomLeft com.mamarene.:roundBottomLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundBottomRight com.mamarene.:roundBottomRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundTopLeft com.mamarene.:roundTopLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundTopRight com.mamarene.:roundTopRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundWithOverlayColor com.mamarene.:roundWithOverlayColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundedCornerRadius com.mamarene.:roundedCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundingBorderColor com.mamarene.:roundingBorderColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_roundingBorderWidth com.mamarene.:roundingBorderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #GenericDraweeView_viewAspectRatio com.mamarene.:viewAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.mamarene.clickfacegame:actualImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.mamarene.clickfacegame:backgroundImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.mamarene.clickfacegame:fadeDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.mamarene.clickfacegame:failureImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.mamarene.clickfacegame:failureImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.mamarene.clickfacegame:overlayImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.mamarene.clickfacegame:placeholderImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.mamarene.clickfacegame:placeholderImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.mamarene.clickfacegame:pressedStateOverlayImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.mamarene.clickfacegame:progressBarAutoRotateInterval}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.mamarene.clickfacegame:progressBarImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.mamarene.clickfacegame:progressBarImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.mamarene.clickfacegame:retryImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.mamarene.clickfacegame:retryImageScaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.mamarene.clickfacegame:roundAsCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.mamarene.clickfacegame:roundBottomLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.mamarene.clickfacegame:roundBottomRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.mamarene.clickfacegame:roundTopLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.mamarene.clickfacegame:roundTopRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.mamarene.clickfacegame:roundWithOverlayColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.mamarene.clickfacegame:roundedCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.mamarene.clickfacegame:roundingBorderColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.mamarene.clickfacegame:roundingBorderPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.mamarene.clickfacegame:roundingBorderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.mamarene.clickfacegame:viewAspectRatio}</code></td><td></td></tr>
            </table>
-           @see #GenericDraweeView_actualImageScaleType
-           @see #GenericDraweeView_backgroundImage
-           @see #GenericDraweeView_fadeDuration
-           @see #GenericDraweeView_failureImage
-           @see #GenericDraweeView_failureImageScaleType
-           @see #GenericDraweeView_overlayImage
-           @see #GenericDraweeView_placeholderImage
-           @see #GenericDraweeView_placeholderImageScaleType
-           @see #GenericDraweeView_pressedStateOverlayImage
-           @see #GenericDraweeView_progressBarAutoRotateInterval
-           @see #GenericDraweeView_progressBarImage
-           @see #GenericDraweeView_progressBarImageScaleType
-           @see #GenericDraweeView_retryImage
-           @see #GenericDraweeView_retryImageScaleType
-           @see #GenericDraweeView_roundAsCircle
-           @see #GenericDraweeView_roundBottomLeft
-           @see #GenericDraweeView_roundBottomRight
-           @see #GenericDraweeView_roundTopLeft
-           @see #GenericDraweeView_roundTopRight
-           @see #GenericDraweeView_roundWithOverlayColor
-           @see #GenericDraweeView_roundedCornerRadius
-           @see #GenericDraweeView_roundingBorderColor
-           @see #GenericDraweeView_roundingBorderWidth
-           @see #GenericDraweeView_viewAspectRatio
+           @see #GenericDraweeHierarchy_actualImageScaleType
+           @see #GenericDraweeHierarchy_backgroundImage
+           @see #GenericDraweeHierarchy_fadeDuration
+           @see #GenericDraweeHierarchy_failureImage
+           @see #GenericDraweeHierarchy_failureImageScaleType
+           @see #GenericDraweeHierarchy_overlayImage
+           @see #GenericDraweeHierarchy_placeholderImage
+           @see #GenericDraweeHierarchy_placeholderImageScaleType
+           @see #GenericDraweeHierarchy_pressedStateOverlayImage
+           @see #GenericDraweeHierarchy_progressBarAutoRotateInterval
+           @see #GenericDraweeHierarchy_progressBarImage
+           @see #GenericDraweeHierarchy_progressBarImageScaleType
+           @see #GenericDraweeHierarchy_retryImage
+           @see #GenericDraweeHierarchy_retryImageScaleType
+           @see #GenericDraweeHierarchy_roundAsCircle
+           @see #GenericDraweeHierarchy_roundBottomLeft
+           @see #GenericDraweeHierarchy_roundBottomRight
+           @see #GenericDraweeHierarchy_roundTopLeft
+           @see #GenericDraweeHierarchy_roundTopRight
+           @see #GenericDraweeHierarchy_roundWithOverlayColor
+           @see #GenericDraweeHierarchy_roundedCornerRadius
+           @see #GenericDraweeHierarchy_roundingBorderColor
+           @see #GenericDraweeHierarchy_roundingBorderPadding
+           @see #GenericDraweeHierarchy_roundingBorderWidth
+           @see #GenericDraweeHierarchy_viewAspectRatio
          */
-        public static final int[] GenericDraweeView = {
+        public static final int[] GenericDraweeHierarchy = {
             0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc,
             0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
             0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4,
             0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8,
             0x7f0100d9, 0x7f0100da, 0x7f0100db, 0x7f0100dc,
-            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actualImageScaleType}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actualImageScaleType}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -6580,22 +6601,22 @@ containing a value of this type.
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:actualImageScaleType
+          @attr name com.mamarene.clickfacegame:actualImageScaleType
         */
-        public static final int GenericDraweeView_actualImageScaleType = 11;
+        public static final int GenericDraweeHierarchy_actualImageScaleType = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:backgroundImage
+          @attr name com.mamarene.clickfacegame:backgroundImage
         */
-        public static final int GenericDraweeView_backgroundImage = 12;
+        public static final int GenericDraweeHierarchy_backgroundImage = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fadeDuration}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fadeDuration}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be an integer value, such as "<code>100</code>".
@@ -6604,22 +6625,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fadeDuration
+          @attr name com.mamarene.clickfacegame:fadeDuration
         */
-        public static final int GenericDraweeView_fadeDuration = 0;
+        public static final int GenericDraweeHierarchy_fadeDuration = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#failureImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#failureImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:failureImage
+          @attr name com.mamarene.clickfacegame:failureImage
         */
-        public static final int GenericDraweeView_failureImage = 6;
+        public static final int GenericDraweeHierarchy_failureImage = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#failureImageScaleType}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#failureImageScaleType}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -6638,32 +6659,32 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:failureImageScaleType
+          @attr name com.mamarene.clickfacegame:failureImageScaleType
         */
-        public static final int GenericDraweeView_failureImageScaleType = 7;
+        public static final int GenericDraweeHierarchy_failureImageScaleType = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#overlayImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#overlayImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:overlayImage
+          @attr name com.mamarene.clickfacegame:overlayImage
         */
-        public static final int GenericDraweeView_overlayImage = 13;
+        public static final int GenericDraweeHierarchy_overlayImage = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#placeholderImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#placeholderImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:placeholderImage
+          @attr name com.mamarene.clickfacegame:placeholderImage
         */
-        public static final int GenericDraweeView_placeholderImage = 2;
+        public static final int GenericDraweeHierarchy_placeholderImage = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#placeholderImageScaleType}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#placeholderImageScaleType}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -6682,22 +6703,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:placeholderImageScaleType
+          @attr name com.mamarene.clickfacegame:placeholderImageScaleType
         */
-        public static final int GenericDraweeView_placeholderImageScaleType = 3;
+        public static final int GenericDraweeHierarchy_placeholderImageScaleType = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#pressedStateOverlayImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#pressedStateOverlayImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:pressedStateOverlayImage
+          @attr name com.mamarene.clickfacegame:pressedStateOverlayImage
         */
-        public static final int GenericDraweeView_pressedStateOverlayImage = 14;
+        public static final int GenericDraweeHierarchy_pressedStateOverlayImage = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#progressBarAutoRotateInterval}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#progressBarAutoRotateInterval}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be an integer value, such as "<code>100</code>".
@@ -6706,22 +6727,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:progressBarAutoRotateInterval
+          @attr name com.mamarene.clickfacegame:progressBarAutoRotateInterval
         */
-        public static final int GenericDraweeView_progressBarAutoRotateInterval = 10;
+        public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#progressBarImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#progressBarImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:progressBarImage
+          @attr name com.mamarene.clickfacegame:progressBarImage
         */
-        public static final int GenericDraweeView_progressBarImage = 8;
+        public static final int GenericDraweeHierarchy_progressBarImage = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#progressBarImageScaleType}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#progressBarImageScaleType}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -6740,22 +6761,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:progressBarImageScaleType
+          @attr name com.mamarene.clickfacegame:progressBarImageScaleType
         */
-        public static final int GenericDraweeView_progressBarImageScaleType = 9;
+        public static final int GenericDraweeHierarchy_progressBarImageScaleType = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#retryImage}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#retryImage}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:retryImage
+          @attr name com.mamarene.clickfacegame:retryImage
         */
-        public static final int GenericDraweeView_retryImage = 4;
+        public static final int GenericDraweeHierarchy_retryImage = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#retryImageScaleType}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#retryImageScaleType}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -6774,12 +6795,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>centerCrop</code></td><td>6</td><td></td></tr>
 <tr><td><code>focusCrop</code></td><td>7</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:retryImageScaleType
+          @attr name com.mamarene.clickfacegame:retryImageScaleType
         */
-        public static final int GenericDraweeView_retryImageScaleType = 5;
+        public static final int GenericDraweeHierarchy_retryImageScaleType = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundAsCircle}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundAsCircle}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -6788,12 +6809,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundAsCircle
+          @attr name com.mamarene.clickfacegame:roundAsCircle
         */
-        public static final int GenericDraweeView_roundAsCircle = 15;
+        public static final int GenericDraweeHierarchy_roundAsCircle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundBottomLeft}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundBottomLeft}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -6802,12 +6823,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundBottomLeft
+          @attr name com.mamarene.clickfacegame:roundBottomLeft
         */
-        public static final int GenericDraweeView_roundBottomLeft = 20;
+        public static final int GenericDraweeHierarchy_roundBottomLeft = 20;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundBottomRight}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundBottomRight}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -6816,12 +6837,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundBottomRight
+          @attr name com.mamarene.clickfacegame:roundBottomRight
         */
-        public static final int GenericDraweeView_roundBottomRight = 19;
+        public static final int GenericDraweeHierarchy_roundBottomRight = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundTopLeft}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundTopLeft}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -6830,12 +6851,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundTopLeft
+          @attr name com.mamarene.clickfacegame:roundTopLeft
         */
-        public static final int GenericDraweeView_roundTopLeft = 17;
+        public static final int GenericDraweeHierarchy_roundTopLeft = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundTopRight}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundTopRight}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -6844,12 +6865,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundTopRight
+          @attr name com.mamarene.clickfacegame:roundTopRight
         */
-        public static final int GenericDraweeView_roundTopRight = 18;
+        public static final int GenericDraweeHierarchy_roundTopRight = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundWithOverlayColor}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundWithOverlayColor}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -6859,12 +6880,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundWithOverlayColor
+          @attr name com.mamarene.clickfacegame:roundWithOverlayColor
         */
-        public static final int GenericDraweeView_roundWithOverlayColor = 21;
+        public static final int GenericDraweeHierarchy_roundWithOverlayColor = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundedCornerRadius}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundedCornerRadius}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -6875,12 +6896,12 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundedCornerRadius
+          @attr name com.mamarene.clickfacegame:roundedCornerRadius
         */
-        public static final int GenericDraweeView_roundedCornerRadius = 16;
+        public static final int GenericDraweeHierarchy_roundedCornerRadius = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundingBorderColor}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundingBorderColor}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -6890,12 +6911,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundingBorderColor
+          @attr name com.mamarene.clickfacegame:roundingBorderColor
         */
-        public static final int GenericDraweeView_roundingBorderColor = 23;
+        public static final int GenericDraweeHierarchy_roundingBorderColor = 23;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#roundingBorderWidth}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundingBorderPadding}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -6906,12 +6927,28 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:roundingBorderWidth
+          @attr name com.mamarene.clickfacegame:roundingBorderPadding
         */
-        public static final int GenericDraweeView_roundingBorderWidth = 22;
+        public static final int GenericDraweeHierarchy_roundingBorderPadding = 24;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#viewAspectRatio}
-          attribute's value can be found in the {@link #GenericDraweeView} array.
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#roundingBorderWidth}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.mamarene.clickfacegame:roundingBorderWidth
+        */
+        public static final int GenericDraweeHierarchy_roundingBorderWidth = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#viewAspectRatio}
+          attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
 
 
           <p>Must be a floating point value, such as "<code>1.2</code>".
@@ -6920,9 +6957,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:viewAspectRatio
+          @attr name com.mamarene.clickfacegame:viewAspectRatio
         */
-        public static final int GenericDraweeView_viewAspectRatio = 1;
+        public static final int GenericDraweeHierarchy_viewAspectRatio = 1;
         /** Attributes that can be used with a LinearLayoutCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -6934,10 +6971,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.mamarene.:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.mamarene.:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.mamarene.:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.mamarene.:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.mamarene.clickfacegame:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.mamarene.clickfacegame:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.mamarene.clickfacegame:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.mamarene.clickfacegame:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -6951,8 +6988,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f01000c, 0x7f0100e1, 0x7f0100e2,
-            0x7f0100e3
+            0x01010128, 0x7f01000c, 0x7f0100e2, 0x7f0100e3,
+            0x7f0100e4
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -6985,17 +7022,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#divider}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:divider
+          @attr name com.mamarene.clickfacegame:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7007,11 +7044,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:dividerPadding
+          @attr name com.mamarene.clickfacegame:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7021,11 +7058,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:measureWithLargestChild
+          @attr name com.mamarene.clickfacegame:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7040,7 +7077,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:showDividers
+          @attr name com.mamarene.clickfacegame:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7179,10 +7216,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.mamarene.:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.mamarene.:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.mamarene.:actionViewClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_alphabeticModifiers com.mamarene.:alphabeticModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.mamarene.clickfacegame:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.mamarene.clickfacegame:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.mamarene.clickfacegame:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_alphabeticModifiers com.mamarene.clickfacegame:alphabeticModifiers}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7196,12 +7233,12 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription com.mamarene.:contentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTint com.mamarene.:iconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_iconTintMode com.mamarene.:iconTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_numericModifiers com.mamarene.:numericModifiers}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.mamarene.:showAsAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText com.mamarene.:tooltipText}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_contentDescription com.mamarene.clickfacegame:contentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTint com.mamarene.clickfacegame:iconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTintMode com.mamarene.clickfacegame:iconTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_numericModifiers com.mamarene.clickfacegame:numericModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.mamarene.clickfacegame:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_tooltipText com.mamarene.clickfacegame:tooltipText}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7231,22 +7268,22 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
-            0x7f0100e7, 0x7f0100e8, 0x7f0100e9, 0x7f0100ea,
-            0x7f0100eb, 0x7f0100ec, 0x7f0100ed
+            0x0101026f, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
+            0x7f0100e8, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb,
+            0x7f0100ec, 0x7f0100ed, 0x7f0100ee
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:actionLayout
+          @attr name com.mamarene.clickfacegame:actionLayout
         */
         public static final int MenuItem_actionLayout = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7256,11 +7293,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:actionProviderClass
+          @attr name com.mamarene.clickfacegame:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7270,11 +7307,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:actionViewClass
+          @attr name com.mamarene.clickfacegame:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#alphabeticModifiers}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#alphabeticModifiers}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7291,7 +7328,7 @@ containing a value of this type.
 <tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:alphabeticModifiers
+          @attr name com.mamarene.clickfacegame:alphabeticModifiers
         */
         public static final int MenuItem_alphabeticModifiers = 13;
         /**
@@ -7373,7 +7410,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentDescription}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentDescription}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7383,11 +7420,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentDescription
+          @attr name com.mamarene.clickfacegame:contentDescription
         */
         public static final int MenuItem_contentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#iconTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#iconTint}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7398,11 +7435,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:iconTint
+          @attr name com.mamarene.clickfacegame:iconTint
         */
         public static final int MenuItem_iconTint = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#iconTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#iconTintMode}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7419,11 +7456,11 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:iconTintMode
+          @attr name com.mamarene.clickfacegame:iconTintMode
         */
         public static final int MenuItem_iconTintMode = 22;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#numericModifiers}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#numericModifiers}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7440,11 +7477,11 @@ containing a value of this type.
 <tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:numericModifiers
+          @attr name com.mamarene.clickfacegame:numericModifiers
         */
         public static final int MenuItem_numericModifiers = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7460,11 +7497,11 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:showAsAction
+          @attr name com.mamarene.clickfacegame:showAsAction
         */
         public static final int MenuItem_showAsAction = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#tooltipText}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#tooltipText}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7474,7 +7511,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:tooltipText
+          @attr name com.mamarene.clickfacegame:tooltipText
         */
         public static final int MenuItem_tooltipText = 20;
         /** Attributes that can be used with a MenuView.
@@ -7490,8 +7527,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.mamarene.:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.mamarene.:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.mamarene.clickfacegame:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow com.mamarene.clickfacegame:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7505,8 +7542,8 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f0100ee,
-            0x7f0100ef
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100ef,
+            0x7f0100f0
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -7551,7 +7588,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7561,17 +7598,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:preserveIconSpacing
+          @attr name com.mamarene.clickfacegame:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:subMenuArrow
+          @attr name com.mamarene.clickfacegame:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a PopupWindow.
@@ -7582,14 +7619,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.mamarene.:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.mamarene.clickfacegame:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x010102c9, 0x7f0100f0
+            0x01010176, 0x010102c9, 0x7f0100f1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
@@ -7604,7 +7641,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -7614,7 +7651,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:overlapAnchor
+          @attr name com.mamarene.clickfacegame:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -7623,15 +7660,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.mamarene.:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.mamarene.clickfacegame:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100f1
+            0x7f0100f2
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -7641,7 +7678,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:state_above_anchor
+          @attr name com.mamarene.clickfacegame:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -7650,17 +7687,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.mamarene.:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.mamarene.:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.mamarene.clickfacegame:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.mamarene.clickfacegame:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
          */
         public static final int[] RecycleListView = {
-            0x7f0100f2, 0x7f0100f3
+            0x7f0100f3, 0x7f0100f4
         };
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -7672,11 +7709,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:paddingBottomNoButtons
+          @attr name com.mamarene.clickfacegame:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -7688,93 +7725,9 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:paddingTopNoTitle
+          @attr name com.mamarene.clickfacegame:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
-        /** Attributes that can be used with a RecyclerView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.mamarene.:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.mamarene.:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.mamarene.:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.mamarene.:stackFromEnd}</code></td><td></td></tr>
-           </table>
-           @see #RecyclerView_android_orientation
-           @see #RecyclerView_layoutManager
-           @see #RecyclerView_reverseLayout
-           @see #RecyclerView_spanCount
-           @see #RecyclerView_stackFromEnd
-         */
-        public static final int[] RecyclerView = {
-            0x010100c4, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
-            0x7f0100f7
-        };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#orientation}
-          attribute's value can be found in the {@link #RecyclerView} array.
-          @attr name android:orientation
-        */
-        public static final int RecyclerView_android_orientation = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layoutManager}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.mamarene.:layoutManager
-        */
-        public static final int RecyclerView_layoutManager = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#reverseLayout}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.mamarene.:reverseLayout
-        */
-        public static final int RecyclerView_reverseLayout = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#spanCount}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.mamarene.:spanCount
-        */
-        public static final int RecyclerView_spanCount = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#stackFromEnd}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.mamarene.:stackFromEnd
-        */
-        public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -7785,19 +7738,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.mamarene.:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.mamarene.:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.mamarene.:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.mamarene.:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.mamarene.:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.mamarene.:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.mamarene.:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.mamarene.:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.mamarene.:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.mamarene.:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.mamarene.:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.mamarene.:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.mamarene.:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.mamarene.clickfacegame:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.mamarene.clickfacegame:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.mamarene.clickfacegame:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.mamarene.clickfacegame:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.mamarene.clickfacegame:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.mamarene.clickfacegame:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.mamarene.clickfacegame:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.mamarene.clickfacegame:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.mamarene.clickfacegame:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.mamarene.clickfacegame:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.mamarene.clickfacegame:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.mamarene.clickfacegame:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.mamarene.clickfacegame:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -7819,10 +7772,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb,
-            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
-            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
-            0x7f010104
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc,
+            0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100,
+            0x7f010101
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -7849,27 +7802,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:closeIcon
+          @attr name com.mamarene.clickfacegame:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:commitIcon
+          @attr name com.mamarene.clickfacegame:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7879,21 +7832,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:defaultQueryHint
+          @attr name com.mamarene.clickfacegame:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:goIcon
+          @attr name com.mamarene.clickfacegame:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7903,31 +7856,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:iconifiedByDefault
+          @attr name com.mamarene.clickfacegame:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#layout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:layout
+          @attr name com.mamarene.clickfacegame:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:queryBackground
+          @attr name com.mamarene.clickfacegame:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7937,59 +7890,98 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:queryHint
+          @attr name com.mamarene.clickfacegame:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:searchHintIcon
+          @attr name com.mamarene.clickfacegame:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:searchIcon
+          @attr name com.mamarene.clickfacegame:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:submitBackground
+          @attr name com.mamarene.clickfacegame:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:suggestionRowLayout
+          @attr name com.mamarene.clickfacegame:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:voiceIcon
+          @attr name com.mamarene.clickfacegame:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
+        /** Attributes that can be used with a SimpleDraweeView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.mamarene.clickfacegame:actualImageResource}</code></td><td></td></tr>
+           <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.mamarene.clickfacegame:actualImageUri}</code></td><td></td></tr>
+           </table>
+           @see #SimpleDraweeView_actualImageResource
+           @see #SimpleDraweeView_actualImageUri
+         */
+        public static final int[] SimpleDraweeView = {
+            0x7f010102, 0x7f010103
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actualImageResource}
+          attribute's value can be found in the {@link #SimpleDraweeView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.mamarene.clickfacegame:actualImageResource
+        */
+        public static final int SimpleDraweeView_actualImageResource = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#actualImageUri}
+          attribute's value can be found in the {@link #SimpleDraweeView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.mamarene.clickfacegame:actualImageUri
+        */
+        public static final int SimpleDraweeView_actualImageUri = 0;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -8000,7 +7992,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.mamarene.:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.mamarene.clickfacegame:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8037,13 +8029,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:popupTheme
+          @attr name com.mamarene.clickfacegame:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8055,17 +8047,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.mamarene.:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.mamarene.:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.mamarene.:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.mamarene.:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.mamarene.:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.mamarene.:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.mamarene.:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.mamarene.:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.mamarene.:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.mamarene.:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.mamarene.:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.mamarene.clickfacegame:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.mamarene.clickfacegame:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.mamarene.clickfacegame:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.mamarene.clickfacegame:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.mamarene.clickfacegame:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.mamarene.clickfacegame:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint com.mamarene.clickfacegame:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.mamarene.clickfacegame:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.mamarene.clickfacegame:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint com.mamarene.clickfacegame:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode com.mamarene.clickfacegame:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8083,10 +8075,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_trackTintMode
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010105,
-            0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109,
-            0x7f01010a, 0x7f01010b, 0x7f01010c, 0x7f01010d,
-            0x7f01010e, 0x7f01010f
+            0x01010124, 0x01010125, 0x01010142, 0x7f010104,
+            0x7f010105, 0x7f010106, 0x7f010107, 0x7f010108,
+            0x7f010109, 0x7f01010a, 0x7f01010b, 0x7f01010c,
+            0x7f01010d, 0x7f01010e
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8107,7 +8099,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#showText}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8117,11 +8109,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:showText
+          @attr name com.mamarene.clickfacegame:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8131,11 +8123,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:splitTrack
+          @attr name com.mamarene.clickfacegame:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8147,11 +8139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:switchMinWidth
+          @attr name com.mamarene.clickfacegame:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8163,21 +8155,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:switchPadding
+          @attr name com.mamarene.clickfacegame:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:switchTextAppearance
+          @attr name com.mamarene.clickfacegame:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8189,11 +8181,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:thumbTextPadding
+          @attr name com.mamarene.clickfacegame:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8204,11 +8196,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:thumbTint
+          @attr name com.mamarene.clickfacegame:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8225,21 +8217,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:thumbTintMode
+          @attr name com.mamarene.clickfacegame:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#track}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:track
+          @attr name com.mamarene.clickfacegame:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8250,11 +8242,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:trackTint
+          @attr name com.mamarene.clickfacegame:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8271,7 +8263,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:trackTintMode
+          @attr name com.mamarene.clickfacegame:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TextAppearance.
@@ -8291,8 +8283,8 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_fontFamily com.mamarene.:fontFamily}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.mamarene.:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_fontFamily com.mamarene.clickfacegame:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.mamarene.clickfacegame:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_fontFamily
            @see #TextAppearance_android_shadowColor
@@ -8381,7 +8373,7 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#fontFamily}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#fontFamily}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
@@ -8391,20 +8383,121 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:fontFamily
+          @attr name com.mamarene.clickfacegame:fontFamily
         */
         public static final int TextAppearance_fontFamily = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.mamarene.:textAllCaps
+          @attr name com.mamarene.clickfacegame:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 11;
+        /** Attributes that can be used with a TextStyle.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextStyle_android_ellipsize android:ellipsize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_maxLines android:maxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_shadowColor android:shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_shadowDx android:shadowDx}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_shadowDy android:shadowDy}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_singleLine android:singleLine}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_textSize android:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextStyle_android_textStyle android:textStyle}</code></td><td></td></tr>
+           </table>
+           @see #TextStyle_android_ellipsize
+           @see #TextStyle_android_maxLines
+           @see #TextStyle_android_shadowColor
+           @see #TextStyle_android_shadowDx
+           @see #TextStyle_android_shadowDy
+           @see #TextStyle_android_shadowRadius
+           @see #TextStyle_android_singleLine
+           @see #TextStyle_android_textAppearance
+           @see #TextStyle_android_textColor
+           @see #TextStyle_android_textSize
+           @see #TextStyle_android_textStyle
+         */
+        public static final int[] TextStyle = {
+            0x01010034, 0x01010095, 0x01010097, 0x01010098,
+            0x010100ab, 0x01010153, 0x0101015d, 0x01010161,
+            0x01010162, 0x01010163, 0x01010164
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#ellipsize}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:ellipsize
+        */
+        public static final int TextStyle_android_ellipsize = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxLines}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:maxLines
+        */
+        public static final int TextStyle_android_maxLines = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:shadowColor
+        */
+        public static final int TextStyle_android_shadowColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:shadowDx
+        */
+        public static final int TextStyle_android_shadowDx = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:shadowDy
+        */
+        public static final int TextStyle_android_shadowDy = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:shadowRadius
+        */
+        public static final int TextStyle_android_shadowRadius = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#singleLine}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:singleLine
+        */
+        public static final int TextStyle_android_singleLine = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:textAppearance
+        */
+        public static final int TextStyle_android_textAppearance = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:textColor
+        */
+        public static final int TextStyle_android_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textSize}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:textSize
+        */
+        public static final int TextStyle_android_textSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #TextStyle} array.
+          @attr name android:textStyle
+        */
+        public static final int TextStyle_android_textStyle = 2;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -8413,33 +8506,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.mamarene.:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.mamarene.:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.mamarene.:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.mamarene.:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.mamarene.:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.mamarene.:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.mamarene.:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.mamarene.:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.mamarene.:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.mamarene.:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.mamarene.:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.mamarene.:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.mamarene.:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.mamarene.:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.mamarene.:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.mamarene.:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.mamarene.:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.mamarene.:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.mamarene.:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.mamarene.:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.mamarene.:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.mamarene.:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.mamarene.:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.mamarene.:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.mamarene.:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.mamarene.:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.mamarene.:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.mamarene.clickfacegame:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.mamarene.clickfacegame:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.mamarene.clickfacegame:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.mamarene.clickfacegame:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.mamarene.clickfacegame:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.mamarene.clickfacegame:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.mamarene.clickfacegame:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.mamarene.clickfacegame:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.mamarene.clickfacegame:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.mamarene.clickfacegame:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.mamarene.clickfacegame:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.mamarene.clickfacegame:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.mamarene.clickfacegame:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.mamarene.clickfacegame:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.mamarene.clickfacegame:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.mamarene.clickfacegame:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.mamarene.clickfacegame:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.mamarene.clickfacegame:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.mamarene.clickfacegame:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin com.mamarene.clickfacegame:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.mamarene.clickfacegame:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.mamarene.clickfacegame:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.mamarene.clickfacegame:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.mamarene.clickfacegame:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.mamarene.clickfacegame:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.mamarene.clickfacegame:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.mamarene.clickfacegame:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8475,11 +8568,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x010100af, 0x01010140, 0x7f010004, 0x7f010007,
             0x7f01000b, 0x7f010017, 0x7f010018, 0x7f010019,
             0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001e,
-            0x7f010110, 0x7f010111, 0x7f010112, 0x7f010113,
-            0x7f010114, 0x7f010115, 0x7f010116, 0x7f010117,
-            0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b,
-            0x7f01011c, 0x7f01011d, 0x7f01011e, 0x7f01011f,
-            0x7f010120
+            0x7f01010f, 0x7f010110, 0x7f010111, 0x7f010112,
+            0x7f010113, 0x7f010114, 0x7f010115, 0x7f010116,
+            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
+            0x7f01011b, 0x7f01011c, 0x7f01011d, 0x7f01011e,
+            0x7f01011f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8494,7 +8587,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8507,11 +8600,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:buttonGravity
+          @attr name com.mamarene.clickfacegame:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8521,21 +8614,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:collapseContentDescription
+          @attr name com.mamarene.clickfacegame:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:collapseIcon
+          @attr name com.mamarene.clickfacegame:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8547,11 +8640,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetEnd
+          @attr name com.mamarene.clickfacegame:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8563,11 +8656,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetEndWithActions
+          @attr name com.mamarene.clickfacegame:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8579,11 +8672,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetLeft
+          @attr name com.mamarene.clickfacegame:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8595,11 +8688,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetRight
+          @attr name com.mamarene.clickfacegame:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8611,11 +8704,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetStart
+          @attr name com.mamarene.clickfacegame:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8627,21 +8720,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:contentInsetStartWithNavigation
+          @attr name com.mamarene.clickfacegame:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#logo}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:logo
+          @attr name com.mamarene.clickfacegame:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8651,11 +8744,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:logoDescription
+          @attr name com.mamarene.clickfacegame:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8667,11 +8760,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:maxButtonHeight
+          @attr name com.mamarene.clickfacegame:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8681,31 +8774,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:navigationContentDescription
+          @attr name com.mamarene.clickfacegame:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:navigationIcon
+          @attr name com.mamarene.clickfacegame:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:popupTheme
+          @attr name com.mamarene.clickfacegame:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8715,21 +8808,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:subtitle
+          @attr name com.mamarene.clickfacegame:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:subtitleTextAppearance
+          @attr name com.mamarene.clickfacegame:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8740,11 +8833,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:subtitleTextColor
+          @attr name com.mamarene.clickfacegame:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#title}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8754,11 +8847,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:title
+          @attr name com.mamarene.clickfacegame:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8770,11 +8863,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMargin
+          @attr name com.mamarene.clickfacegame:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8786,11 +8879,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMarginBottom
+          @attr name com.mamarene.clickfacegame:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8802,11 +8895,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMarginEnd
+          @attr name com.mamarene.clickfacegame:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8818,11 +8911,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMarginStart
+          @attr name com.mamarene.clickfacegame:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8834,11 +8927,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMarginTop
+          @attr name com.mamarene.clickfacegame:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8850,21 +8943,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleMargins
+          @attr name com.mamarene.clickfacegame:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:titleTextAppearance
+          @attr name com.mamarene.clickfacegame:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8875,7 +8968,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:titleTextColor
+          @attr name com.mamarene.clickfacegame:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -8886,9 +8979,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.mamarene.:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.mamarene.:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.mamarene.:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.mamarene.clickfacegame:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.mamarene.clickfacegame:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.mamarene.clickfacegame:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -8897,8 +8990,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f010121, 0x7f010122,
-            0x7f010123
+            0x01010000, 0x010100da, 0x7f010120, 0x7f010121,
+            0x7f010122
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8913,7 +9006,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8925,11 +9018,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:paddingEnd
+          @attr name com.mamarene.clickfacegame:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8941,17 +9034,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:paddingStart
+          @attr name com.mamarene.clickfacegame:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#theme}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.mamarene.:theme
+          @attr name com.mamarene.clickfacegame:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -8961,15 +9054,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.mamarene.:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.mamarene.:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.mamarene.clickfacegame:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.mamarene.clickfacegame:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f010124, 0x7f010125
+            0x010100d4, 0x7f010123, 0x7f010124
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -8978,7 +9071,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -8989,11 +9082,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.mamarene.:backgroundTint
+          @attr name com.mamarene.clickfacegame:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.mamarene..R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.mamarene.clickfacegame.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9010,7 +9103,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.mamarene.:backgroundTintMode
+          @attr name com.mamarene.clickfacegame:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

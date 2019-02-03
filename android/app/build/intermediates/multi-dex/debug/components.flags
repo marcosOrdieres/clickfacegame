@@ -1,0 +1,76 @@
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/react-native-0.53.3.aar/dbbccdf054bb3ac9b22a82765d481895/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/react-native-0.53.3.aar/dbbccdf054bb3ac9b22a82765d481895/jars/libs/infer-annotations-4.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ae19f23265fa2a6740e65a3155a901c1/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/663d9d62ce4e0810931bca8200c16dd8/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a39c3a7151a9981c8aa5e3dca43c8c8b/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bebeaf4f5e7a463edae77ee24e2e0dd7/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cc32373fd2db8ea3ee5eaf952dd55e69/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/25c8d4f20f0e3178df6aef1d47da36ba/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1d9722945209db8541f965884947cc46/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ce812c056db9b2d29468a59dc9101821/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/284aa79188a10ed2f0461321bf28a865/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/aef830bc58276501d6ea6f2d3110d347/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/708452f3e861b32358e8b722200cea0c/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/f18cd83885c5a54ed2495aa35f30f1d7/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/8f57745c6945ff0a98c9e12ac5fca1f4/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/87661bdb7032d00e38a1f489e5883e7d/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/9f6f900b45c145a1aa510897d67eae9b/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/1303d5a593c3a44d2ea1da7cba4b4bd4/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44dc00d72d07100bfb322add79b19ce8/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3e97eef2a94cc51c1ca567b1d090d702/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d2e02ad4b3d0463453d875520daab4f4/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff6444ef58d0eb7b8bea70575e67ef2f/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar(**.class)
+-injars /Users/marcos/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/678775ba2a6f60cb1f6c5152d1a756af/jars/classes.jar(**.class)
+-injars /Users/marcos/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar(**.class)
+-injars /Users/marcos/clickfacegame/node_modules/react-native-i18n/android/build/intermediates/intermediate-jars/debug/classes.jar(**.class)
+-injars /Users/marcos/clickfacegame/android/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/marcos/clickfacegame/android/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/marcos/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/marcos/clickfacegame/android/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# view AndroidManifest.xml #generated:17
+-keep class com.mamarene.clickfacegame.MainApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
