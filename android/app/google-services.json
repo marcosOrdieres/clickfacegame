@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "414336977920",
+    "firebase_url": "https://clickfacegame.firebaseio.com",
+    "project_id": "clickfacegame",
+    "storage_bucket": "clickfacegame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414336977920:android:27715e64344299f1",
+        "android_client_info": {
+          "package_name": "com.mamarene.clickfacegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414336977920-18dc3q523tgnci2oq1l87uvfhuslccli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsMJSDyBfFi1Dm3v_H25nOYiDL_OstBwc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
