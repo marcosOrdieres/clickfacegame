@@ -1,6 +1,6 @@
 const isExampleReducer = (state = false, action) => {
   switch (action.type) {
-    case 'checkVersion':
+    case 'EXAMPLE':
       return action.isExample;
     default:
       return state;

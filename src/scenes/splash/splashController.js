@@ -1,5 +1,6 @@
 import { BaseScene } from 'components';
 import template from './splashTemplate';
+import { connect } from 'react-redux';
 
 class SplashController extends BaseScene {
   constructor (args) {
