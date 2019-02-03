@@ -12,6 +12,7 @@ class SplashController extends BaseScene {
   constructor (args) {
     super(args);
     this.initializeFirebaseApp();
+    this.chargeAd();
     this.state = {
       renderAgain: false,
       numberFaces: [0],
@@ -33,6 +34,14 @@ class SplashController extends BaseScene {
     } catch (error) {
       console.warn(error.message);
     }
+  }
+
+  chargeAd () {
+    console.warn('CHARGING');
+    // Display an interstitial
+    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // poner el mio
+    AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
+    AdMobInterstitial.requestAd();
   }
 
   generateFaces () {
@@ -61,11 +70,9 @@ class SplashController extends BaseScene {
     this.setState({buttonGameOver: true});
   }
 
-  onStartAgain () {
+  async onStartAgain () {
     // Display an interstitial
-    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // poner el mio
-    AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
-    AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd());
+    await AdMobInterstitial.showAd();
     this.setState({
       buttonGameOver: false,
       numberFaces: [0]
