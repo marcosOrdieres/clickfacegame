@@ -3,12 +3,15 @@ import template from './splashTemplate';
 import { connect } from 'react-redux';
 import { Dimensions, ToastAndroid } from 'react-native';
 import { StackActions, NavigationActions } from 'react-navigation';
+import { AdMobInterstitial } from 'react-native-admob';
+import firebase from 'react-native-firebase';
 
 const {width, height} = Dimensions.get('window');
 
 class SplashController extends BaseScene {
   constructor (args) {
     super(args);
+    this.initializeFirebaseApp();
     this.state = {
       renderAgain: false,
       numberFaces: [0],
@@ -17,6 +20,19 @@ class SplashController extends BaseScene {
       toastVisible: false,
       buttonGameOver: false
     };
+  }
+
+  async initializeFirebaseApp () {
+    try {
+      const firebaseConfig = {
+        apiKey: this.env.apiKey,
+        authDomain: this.env.authDomain,
+        databaseURL: this.env.databaseURL
+      };
+      const firebaseApp = firebase.app(firebaseConfig);
+    } catch (error) {
+      console.warn(error.message);
+    }
   }
 
   generateFaces () {
@@ -46,6 +62,10 @@ class SplashController extends BaseScene {
   }
 
   onStartAgain () {
+    // Display an interstitial
+    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // poner el mio
+    AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
+    AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd());
     this.setState({
       buttonGameOver: false,
       numberFaces: [0]

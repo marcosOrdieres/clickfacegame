@@ -4,7 +4,7 @@
             "outputFile": "/Users/marcos/clickfacegame/android/app/build/intermediates/res/merged/debug/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ce812c056db9b2d29468a59dc9101821/res/values-v16/values-v16.xml",
+                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8dc04698eeecbb39f42bbcba63c66106/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ae19f23265fa2a6740e65a3155a901c1/res/values-v16/values-v16.xml",
+                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98d7f21bdfb2de1bb1bc8e1d0a229886/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
             "outputFile": "/Users/marcos/clickfacegame/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ce812c056db9b2d29468a59dc9101821/res/values-v16/values-v16.xml",
+                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8dc04698eeecbb39f42bbcba63c66106/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ae19f23265fa2a6740e65a3155a901c1/res/values-v16/values-v16.xml",
+                    "source": "/Users/marcos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98d7f21bdfb2de1bb1bc8e1d0a229886/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
