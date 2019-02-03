@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -52,6 +51,8 @@
 		BF6DC721B8D94523BF556EC4 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C533E8301B164E1AAFD6768B /* Feather.ttf */; };
 		C806D529AFD30B985EB8FC8D /* libPods-clickfacegame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61DBEE3DB71CC8D07D7154F /* libPods-clickfacegame.a */; };
 		E5553DBF9F8C4698A0506775 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3BBD746A9054AC1BAD51C29 /* Ionicons.ttf */; };
+		5D2C1AFA7F1D4CA29763AF22 /* libRNAdMobManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6F329275F54D6F8EA346A0 /* libRNAdMobManager.a */; };
+		B9FDF662E6DB4F9990C589FA /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CBEB9810FB402E80A3FC06 /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -423,6 +424,10 @@
 		F0C0BC732D364DE087799A33 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		F1C74387EF3341F7888E1E63 /* Hind-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hind-Light.ttf"; path = "../src/fonts/Hind-Light.ttf"; sourceTree = "<group>"; };
 		FFC2970289B0486287DDD14B /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
+		2BEF96BF617A44A28B839E13 /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; name = "RNAdMobManager.xcodeproj"; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		EA6F329275F54D6F8EA346A0 /* libRNAdMobManager.a */ = {isa = PBXFileReference; name = "libRNAdMobManager.a"; path = "libRNAdMobManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7012CAB530BF43A28CEA2181 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		77CBEB9810FB402E80A3FC06 /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +461,8 @@
 				8D930A9420D6E5500066F2B4 /* libthird-party.a in Frameworks */,
 				8D930A9520D6E5500066F2B4 /* libyoga.a in Frameworks */,
 				C806D529AFD30B985EB8FC8D /* libPods-clickfacegame.a in Frameworks */,
+				5D2C1AFA7F1D4CA29763AF22 /* libRNAdMobManager.a in Frameworks */,
+				B9FDF662E6DB4F9990C589FA /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +617,8 @@
 				4CDB003261C843CA84034364 /* BVLinearGradient.xcodeproj */,
 				D767FDBD5F214857B7C82420 /* RNVectorIcons.xcodeproj */,
 				FFC2970289B0486287DDD14B /* AirMaps.xcodeproj */,
+				2BEF96BF617A44A28B839E13 /* RNAdMobManager.xcodeproj */,
+				7012CAB530BF43A28CEA2181 /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1305,6 +1314,8 @@
 					"${SRCROOT}/Pods/Headers/Public/GoogleMaps",
 					"${SRCROOT}/PodsHeaders/Public/React",
 					"${SRCROOT}/Pods",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
@@ -1327,6 +1338,11 @@
 				);
 				PRODUCT_NAME = "clickfacegame";
 				VERSIONING_SYSTEM = "apple-generic";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/clickfacegame\"",
+					"\"$(SRCROOT)/clickfacegame\"",
+				);
 			};
 			name = Debug;
 		};
@@ -1349,6 +1365,8 @@
 					"\"$(PODS_ROOT)/Headers/Public\"",
 					"\"$(PODS_ROOT)/Headers/Public/GoogleMaps\"",
 					"\"$(PODS_ROOT)/Headers/Public/React\"",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "clickfacegame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1359,6 +1377,11 @@
 				);
 				PRODUCT_NAME = "clickfacegame";
 				VERSIONING_SYSTEM = "apple-generic";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/clickfacegame\"",
+					"\"$(SRCROOT)/clickfacegame\"",
+				);
 			};
 			name = Release;
 		};
