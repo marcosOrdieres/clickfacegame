@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "click-face-game.app"
-               BlueprintName = "click-face-game"
-               ReferencedContainer = "container:click-face-game.xcodeproj">
+               BuildableName = "clickfacegame.app"
+               BlueprintName = "clickfacegame"
+               ReferencedContainer = "container:clickfacegame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "click-face-gameTests.xctest"
-               BlueprintName = "click-face-gameTests"
-               ReferencedContainer = "container:click-face-game.xcodeproj">
+               BuildableName = "clickfacegameTests.xctest"
+               BlueprintName = "clickfacegameTests"
+               ReferencedContainer = "container:clickfacegame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "click-face-gameTests.xctest"
-               BlueprintName = "click-face-gameTests"
-               ReferencedContainer = "container:click-face-game.xcodeproj">
+               BuildableName = "clickfacegameTests.xctest"
+               BlueprintName = "clickfacegameTests"
+               ReferencedContainer = "container:clickfacegame.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "click-face-game.app"
-            BlueprintName = "click-face-game"
-            ReferencedContainer = "container:click-face-game.xcodeproj">
+            BuildableName = "clickfacegame.app"
+            BlueprintName = "clickfacegame"
+            ReferencedContainer = "container:clickfacegame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "click-face-game.app"
-            BlueprintName = "click-face-game"
-            ReferencedContainer = "container:click-face-game.xcodeproj">
+            BuildableName = "clickfacegame.app"
+            BlueprintName = "clickfacegame"
+            ReferencedContainer = "container:clickfacegame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "click-face-game.app"
-            BlueprintName = "click-face-game"
-            ReferencedContainer = "container:click-face-game.xcodeproj">
+            BuildableName = "clickfacegame.app"
+            BlueprintName = "clickfacegame"
+            ReferencedContainer = "container:clickfacegame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

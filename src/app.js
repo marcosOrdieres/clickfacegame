@@ -16,4 +16,4 @@ class App extends Component {
 
 export default App;
 
-AppRegistry.registerComponent('click-face-game', () => App);
+AppRegistry.registerComponent('', () => App);

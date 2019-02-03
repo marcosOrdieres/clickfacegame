@@ -50,7 +50,7 @@
 		A43042A2B23B4E4FAED7D24B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC358C41A104A19B6951DBD /* SimpleLineIcons.ttf */; };
 		BC69C38A1EDA41C493E6CB45 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA60693BCE2D4A73964CAADB /* MaterialCommunityIcons.ttf */; };
 		BF6DC721B8D94523BF556EC4 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C533E8301B164E1AAFD6768B /* Feather.ttf */; };
-		C806D529AFD30B985EB8FC8D /* libPods-click-face-game.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61DBEE3DB71CC8D07D7154F /* libPods-click-face-game.a */; };
+		C806D529AFD30B985EB8FC8D /* libPods-clickfacegame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61DBEE3DB71CC8D07D7154F /* libPods-clickfacegame.a */; };
 		E5553DBF9F8C4698A0506775 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3BBD746A9054AC1BAD51C29 /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
@@ -379,19 +379,19 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		01589A42495BEC1068597EF0 /* Pods-click-face-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-click-face-game.release.xcconfig"; path = "Pods/Target Support Files/Pods-click-face-game/Pods-click-face-game.release.xcconfig"; sourceTree = "<group>"; };
+		01589A42495BEC1068597EF0 /* Pods-clickfacegame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickfacegame.release.xcconfig"; path = "Pods/Target Support Files/Pods-clickfacegame/Pods-clickfacegame.release.xcconfig"; sourceTree = "<group>"; };
 		0728A55546794D89870E7A33 /* Hind-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hind-Medium.ttf"; path = "../src/fonts/Hind-Medium.ttf"; sourceTree = "<group>"; };
 		114E38F268F3483CB47BF031 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		1356D3434C0F4FA7B65A1FBC /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* click-face-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "click-face-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "click-face-game/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "click-face-game/AppDelegate.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* clickfacegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clickfacegame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "clickfacegame/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "clickfacegame/AppDelegate.m"; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "click-face-game/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "click-face-game/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "click-face-game/main.m"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "clickfacegame/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "clickfacegame/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "clickfacegame/main.m"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDB003261C843CA84034364 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
@@ -399,7 +399,7 @@
 		53C62EAB3C8D42D68F97E658 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		60786A238C774FCCBF53DB4E /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
-		60AD79D767D07921803D1C68 /* Pods-click-face-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-click-face-game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-click-face-game/Pods-click-face-game.debug.xcconfig"; sourceTree = "<group>"; };
+		60AD79D767D07921803D1C68 /* Pods-clickfacegame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickfacegame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clickfacegame/Pods-clickfacegame.debug.xcconfig"; sourceTree = "<group>"; };
 		64091D9AE4A642C0ABA8137A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		66AF1A23AD7A4F5A9C550EBC /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 		D3BBD746A9054AC1BAD51C29 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		D767FDBD5F214857B7C82420 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		D8ADCC9FD89D4169B541EDF0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		E61DBEE3DB71CC8D07D7154F /* libPods-click-face-game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-click-face-game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61DBEE3DB71CC8D07D7154F /* libPods-clickfacegame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clickfacegame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C0BC732D364DE087799A33 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		F1C74387EF3341F7888E1E63 /* Hind-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hind-Light.ttf"; path = "../src/fonts/Hind-Light.ttf"; sourceTree = "<group>"; };
 		FFC2970289B0486287DDD14B /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
@@ -455,7 +455,7 @@
 				8D930A9320D6E5500066F2B4 /* libRNVectorIcons.a in Frameworks */,
 				8D930A9420D6E5500066F2B4 /* libthird-party.a in Frameworks */,
 				8D930A9520D6E5500066F2B4 /* libyoga.a in Frameworks */,
-				C806D529AFD30B985EB8FC8D /* libPods-click-face-game.a in Frameworks */,
+				C806D529AFD30B985EB8FC8D /* libPods-clickfacegame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +524,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* click-face-game */ = {
+		13B07FAE1A68108700A75B9A /* clickfacegame */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -535,7 +535,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "click-face-game";
+			name = "clickfacegame";
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -567,7 +567,7 @@
 				8D930A7A20D6E5500066F2B4 /* libReact.a */,
 				8D930A7C20D6E5500066F2B4 /* libyoga.a */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				E61DBEE3DB71CC8D07D7154F /* libPods-click-face-game.a */,
+				E61DBEE3DB71CC8D07D7154F /* libPods-clickfacegame.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -627,7 +627,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0C500E205D9BBD0006AA5B /* AirGoogleMaps */,
-				13B07FAE1A68108700A75B9A /* click-face-game */,
+				13B07FAE1A68108700A75B9A /* clickfacegame */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -643,7 +643,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* click-face-game.app */,
+				13B07F961A680F5B00A75B9A /* clickfacegame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -735,8 +735,8 @@
 		FF2C1E8C04999DB2A87A8652 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60AD79D767D07921803D1C68 /* Pods-click-face-game.debug.xcconfig */,
-				01589A42495BEC1068597EF0 /* Pods-click-face-game.release.xcconfig */,
+				60AD79D767D07921803D1C68 /* Pods-clickfacegame.debug.xcconfig */,
+				01589A42495BEC1068597EF0 /* Pods-clickfacegame.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -744,9 +744,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* click-face-game */ = {
+		13B07F861A680F5B00A75B9A /* clickfacegame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "click-face-game" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clickfacegame" */;
 			buildPhases = (
 				970F348AED13ADB07B52B91D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -759,9 +759,9 @@
 			);
 			dependencies = (
 			);
-			name = "click-face-game";
+			name = "clickfacegame";
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* click-face-game.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* clickfacegame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -773,7 +773,7 @@
 				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "click-face-game" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clickfacegame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -856,7 +856,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* click-face-game */,
+				13B07F861A680F5B00A75B9A /* clickfacegame */,
 			);
 		};
 /* End PBXProject section */
@@ -1232,7 +1232,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-click-face-game-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-clickfacegame-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1245,7 +1245,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-click-face-game/Pods-click-face-game-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-clickfacegame/Pods-clickfacegame-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1254,7 +1254,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-click-face-game/Pods-click-face-game-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clickfacegame/Pods-clickfacegame-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1278,7 +1278,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = "click-face-game";
+			path = "clickfacegame";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1286,7 +1286,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60AD79D767D07921803D1C68 /* Pods-click-face-game.debug.xcconfig */;
+			baseConfigurationReference = 60AD79D767D07921803D1C68 /* Pods-clickfacegame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1317,7 +1317,7 @@
 					"$(SRCROOT)/../node_modules/react-native/Libraries/Image/**",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
-				INFOPLIST_FILE = "click-face-game/Info.plist";
+				INFOPLIST_FILE = "clickfacegame/Info.plist";
 				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1325,14 +1325,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = "click-face-game";
+				PRODUCT_NAME = "clickfacegame";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01589A42495BEC1068597EF0 /* Pods-click-face-game.release.xcconfig */;
+			baseConfigurationReference = 01589A42495BEC1068597EF0 /* Pods-clickfacegame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1350,14 +1350,14 @@
 					"\"$(PODS_ROOT)/Headers/Public/GoogleMaps\"",
 					"\"$(PODS_ROOT)/Headers/Public/React\"",
 				);
-				INFOPLIST_FILE = "click-face-game/Info.plist";
+				INFOPLIST_FILE = "clickfacegame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_NAME = "click-face-game";
+				PRODUCT_NAME = "clickfacegame";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1441,7 +1441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "click-face-game" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clickfacegame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1450,7 +1450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "click-face-game" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clickfacegame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

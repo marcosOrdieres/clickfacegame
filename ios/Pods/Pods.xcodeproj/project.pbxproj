@@ -262,7 +262,7 @@
 		8F3987A7977EE082FD73381942DA2E6F /* RCTDataRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1599E9097D43519ECC7FBA2705747 /* RCTDataRequestHandler.m */; };
 		90B05EA384AC7FC67DB467868B02E048 /* RCTViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C98B1EC3F170698BD7C7AA9D3343FFF2 /* RCTViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		90C5F5C2D52AAC76BB020B45970D6BF7 /* RCTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DCE6D94AAF428204429209D89DFEB3 /* RCTWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90DC2EF9EDAE00A8B48F4DA7DA8BCA3B /* Pods-click-face-game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-click-face-game-dummy.m */; };
+		90DC2EF9EDAE00A8B48F4DA7DA8BCA3B /* Pods-clickfacegame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-clickfacegame-dummy.m */; };
 		91CD89C09A73EF2ED53AA59F7CD7CF7D /* RCTWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E8E810156BC55BC5A2BE640F997B28 /* RCTWrapperViewController.m */; };
 		92115EB6DEB5E58AD0A0EC63C6F9BB9B /* RCTTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B435DD845F87844DB36F57437744B7C0 /* RCTTouchHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9238E41DF97C297120353ABD12D05DC8 /* RCTSurfaceHostingView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52EADCB3FC620B8C714044F7B51D33BD /* RCTSurfaceHostingView.mm */; };
@@ -516,7 +516,7 @@
 		199275D4E6FEA86B16538F9AD41D04D7 /* RCTConvert+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Transform.h"; sourceTree = "<group>"; };
 		19A9283486CB13E4A14D65E4CBC8D571 /* RCTSliderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSliderManager.m; sourceTree = "<group>"; };
 		19ABD17A6B38877E6D03C245CFF550C0 /* RCTMultipartDataTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultipartDataTask.m; sourceTree = "<group>"; };
-		1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-click-face-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-click-face-game.release.xcconfig"; sourceTree = "<group>"; };
+		1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-clickfacegame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clickfacegame.release.xcconfig"; sourceTree = "<group>"; };
 		1AF58B8A88F4598A7A138054C38CB631 /* RCTSourceCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSourceCode.m; sourceTree = "<group>"; };
 		1B070A3BA0B611FC8D062D35A89C238F /* RCTTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTextView.h; sourceTree = "<group>"; };
 		1BA83B77A78426FEC5FEEF05FA5E5A60 /* RCTUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUITextView.h; sourceTree = "<group>"; };
@@ -670,7 +670,7 @@
 		72927B4A112A8EC9836D97ADE257C976 /* Yoga.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.cpp; path = yoga/Yoga.cpp; sourceTree = "<group>"; };
 		73CFDB44A7948E08B98022656993A656 /* RCTRedBoxExtraDataViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRedBoxExtraDataViewController.m; sourceTree = "<group>"; };
 		743D3DD5856CDBD1487B94C1AB44AC1B /* RCTInspectorPackagerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInspectorPackagerConnection.m; sourceTree = "<group>"; };
-		74630EA2EE5B916A47459E5CFBD411F4 /* Pods-click-face-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-click-face-game.debug.xcconfig"; sourceTree = "<group>"; };
+		74630EA2EE5B916A47459E5CFBD411F4 /* Pods-clickfacegame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clickfacegame.debug.xcconfig"; sourceTree = "<group>"; };
 		746404DDDA084CC13298B441535CA3F8 /* RCTNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavigator.m; sourceTree = "<group>"; };
 		751775325EEC3E9BD535177390695177 /* RCTAsyncLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAsyncLocalStorage.h; sourceTree = "<group>"; };
 		7594EAEB4AD66C1339ABEB7C7EF95362 /* RCTPickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPickerManager.h; sourceTree = "<group>"; };
@@ -688,7 +688,7 @@
 		7E4517DE711F7F20F29D0A7AC69C88AB /* React.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = React.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7ECE8A0D5990CFE012448BD296AC36C7 /* RCTTabBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTabBarManager.h; sourceTree = "<group>"; };
 		7F389811EF379DBD7D8A77943CF32900 /* RCTTransformAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTransformAnimatedNode.m; sourceTree = "<group>"; };
-		80016CA36A589924F799AE1D330753FF /* Pods-click-face-game-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-click-face-game-resources.sh"; sourceTree = "<group>"; };
+		80016CA36A589924F799AE1D330753FF /* Pods-clickfacegame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-clickfacegame-resources.sh"; sourceTree = "<group>"; };
 		8078EEDD29653263C3BEF68D511BC702 /* RCTInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTInspector.h; sourceTree = "<group>"; };
 		807EDCA7AD1EC0854598B62B2CAAE9C0 /* RCTSafeAreaShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSafeAreaShadowView.m; sourceTree = "<group>"; };
 		809F6154D5732FCC519EBB148DEE5445 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = Libraries/fishhook/fishhook.h; sourceTree = "<group>"; };
@@ -774,14 +774,14 @@
 		AE744B928230DE5EC81A5D83AFE7C6F3 /* RCTTouchEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTouchEvent.h; sourceTree = "<group>"; };
 		AE834678E2B49D4C06F99E3C52077148 /* RCTPerfMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPerfMonitor.m; sourceTree = "<group>"; };
 		B0A1439722260258EA5886D6912CDA56 /* RCTBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBridge.h; sourceTree = "<group>"; };
-		B1DF190EE8CB49463B83C6B624961EAD /* Pods-click-face-game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-click-face-game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1DF190EE8CB49463B83C6B624961EAD /* Pods-clickfacegame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clickfacegame-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B20EE067D2A49DC7CF385E16C77A28B2 /* RCTUIManagerObserverCoordinator.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTUIManagerObserverCoordinator.mm; sourceTree = "<group>"; };
 		B32FC11C24599047F4EDFBD16FBCA7A4 /* RCTTabBarItemManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBarItemManager.m; sourceTree = "<group>"; };
 		B435DD845F87844DB36F57437744B7C0 /* RCTTouchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTouchHandler.h; sourceTree = "<group>"; };
 		B608A91B0E3A607110518445DD6567E1 /* RCTAnimatedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAnimatedNode.h; sourceTree = "<group>"; };
 		B60AEF821C398746039EF7DD774A293F /* RCTDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDeviceInfo.h; sourceTree = "<group>"; };
 		B6EB4250AF173546EC150BE0C386F04A /* RCTImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTImageCache.m; path = Libraries/Image/RCTImageCache.m; sourceTree = "<group>"; };
-		B705521077519AFDBCF638753A3BE082 /* libPods-click-face-game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-click-face-game.a"; path = "libPods-click-face-game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B705521077519AFDBCF638753A3BE082 /* libPods-clickfacegame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-clickfacegame.a"; path = "libPods-clickfacegame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70664083774C843B8A952A5B2427985 /* RCTRedBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRedBox.h; sourceTree = "<group>"; };
 		B727DB5DDC1B45BC51A1FDBFEFAAF83F /* RCTPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPicker.h; sourceTree = "<group>"; };
 		B7DFC1D59DE356C3BDEBFBF016884B33 /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTDataRequestHandler.h; path = Libraries/Network/RCTDataRequestHandler.h; sourceTree = "<group>"; };
@@ -876,7 +876,7 @@
 		E5C2466492ABD480CED1AD6AC8DEF8AB /* RCTSourceCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSourceCode.h; sourceTree = "<group>"; };
 		E5CC4DF754CBE4A16AA3E587A9C800BF /* RCTRootViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootViewDelegate.h; sourceTree = "<group>"; };
 		E680C17856A883404DBABEB0F047A788 /* RCTUIManagerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUIManagerUtils.m; sourceTree = "<group>"; };
-		E69F51330FF10BBB152342D814DFC1FC /* Pods-click-face-game-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-click-face-game-frameworks.sh"; sourceTree = "<group>"; };
+		E69F51330FF10BBB152342D814DFC1FC /* Pods-clickfacegame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-clickfacegame-frameworks.sh"; sourceTree = "<group>"; };
 		E6C0D69FC26C3262D8088CD24DEA0179 /* RCTMultilineTextInputShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultilineTextInputShadowView.m; sourceTree = "<group>"; };
 		E76733DC0E2D04E9509DB4BFC9397BA7 /* RCTFileRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTFileRequestHandler.m; path = Libraries/Network/RCTFileRequestHandler.m; sourceTree = "<group>"; };
 		E7971F65C1B33FE4BA5D5F96B034B266 /* RCTAnimationUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTAnimationUtils.m; path = Libraries/NativeAnimation/RCTAnimationUtils.m; sourceTree = "<group>"; };
@@ -885,7 +885,7 @@
 		E8AADF58CA664CB4A32497F00C21844D /* RCTNativeAnimatedModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNativeAnimatedModule.h; path = Libraries/NativeAnimation/RCTNativeAnimatedModule.h; sourceTree = "<group>"; };
 		E91C2351AAD463B71C0B2E669CE848E4 /* RCTBridge+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Private.h"; sourceTree = "<group>"; };
 		E985CBEA6882A49208C2D66AA20A5A0B /* RCTBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBridge.m; sourceTree = "<group>"; };
-		EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-click-face-game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-click-face-game-dummy.m"; sourceTree = "<group>"; };
+		EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-clickfacegame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clickfacegame-dummy.m"; sourceTree = "<group>"; };
 		EAE33E35A749F27F440C1CDA06D40EE7 /* UIView+React.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+React.h"; sourceTree = "<group>"; };
 		ECF4945A2EFF50F73740EAAA5C066FBA /* InspectorInterfaces.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = InspectorInterfaces.cpp; path = ReactCommon/jsinspector/InspectorInterfaces.cpp; sourceTree = "<group>"; };
 		ECFFED9B3D4F9906C875DD8C491D0472 /* RCTProfileTrampoline-arm64.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-arm64.S"; sourceTree = "<group>"; };
@@ -922,7 +922,7 @@
 		FC0D4DA08DFF179A4E5ABFD4DEAE629D /* RCTVibration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTVibration.m; path = Libraries/Vibration/RCTVibration.m; sourceTree = "<group>"; };
 		FC11BCF13242E71EF4C15DA6E476CC0D /* RCTAnimationUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTAnimationUtils.h; path = Libraries/NativeAnimation/RCTAnimationUtils.h; sourceTree = "<group>"; };
 		FC2230276349695A9E9483CEF555F19B /* RCTTouchEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTouchEvent.m; sourceTree = "<group>"; };
-		FCB751447118983D99A9DF4ADF3F1FF6 /* Pods-click-face-game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-click-face-game-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCB751447118983D99A9DF4ADF3F1FF6 /* Pods-clickfacegame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clickfacegame-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE9670EA591838FF28C02CD8811B7410 /* RCTScrollViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollViewManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1072,7 +1072,7 @@
 		420177B472CA80E7EFF6B8D88CBE294E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98BD5D09418FD886ED9F817CF59995E7 /* Pods-click-face-game */,
+				98BD5D09418FD886ED9F817CF59995E7 /* Pods-clickfacegame */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1406,7 +1406,7 @@
 		95B52DA1F90FC9E9EEB444C6CB597237 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B705521077519AFDBCF638753A3BE082 /* libPods-click-face-game.a */,
+				B705521077519AFDBCF638753A3BE082 /* libPods-clickfacegame.a */,
 				0925BA507C81C451DFE6240433068B4C /* libReact.a */,
 				F45EC5025EB23EF39FB904BD828F7249 /* libyoga.a */,
 			);
@@ -1424,19 +1424,19 @@
 			name = jschelpers_legacy;
 			sourceTree = "<group>";
 		};
-		98BD5D09418FD886ED9F817CF59995E7 /* Pods-click-face-game */ = {
+		98BD5D09418FD886ED9F817CF59995E7 /* Pods-clickfacegame */ = {
 			isa = PBXGroup;
 			children = (
-				B1DF190EE8CB49463B83C6B624961EAD /* Pods-click-face-game-acknowledgements.markdown */,
-				FCB751447118983D99A9DF4ADF3F1FF6 /* Pods-click-face-game-acknowledgements.plist */,
-				EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-click-face-game-dummy.m */,
-				E69F51330FF10BBB152342D814DFC1FC /* Pods-click-face-game-frameworks.sh */,
-				80016CA36A589924F799AE1D330753FF /* Pods-click-face-game-resources.sh */,
-				74630EA2EE5B916A47459E5CFBD411F4 /* Pods-click-face-game.debug.xcconfig */,
-				1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-click-face-game.release.xcconfig */,
+				B1DF190EE8CB49463B83C6B624961EAD /* Pods-clickfacegame-acknowledgements.markdown */,
+				FCB751447118983D99A9DF4ADF3F1FF6 /* Pods-clickfacegame-acknowledgements.plist */,
+				EA20463D2BF7DB2685AB6AF91CFE3305 /* Pods-clickfacegame-dummy.m */,
+				E69F51330FF10BBB152342D814DFC1FC /* Pods-clickfacegame-frameworks.sh */,
+				80016CA36A589924F799AE1D330753FF /* Pods-clickfacegame-resources.sh */,
+				74630EA2EE5B916A47459E5CFBD411F4 /* Pods-clickfacegame.debug.xcconfig */,
+				1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-clickfacegame.release.xcconfig */,
 			);
-			name = "Pods-click-face-game";
-			path = "Target Support Files/Pods-click-face-game";
+			name = "Pods-clickfacegame";
+			path = "Target Support Files/Pods-clickfacegame";
 			sourceTree = "<group>";
 		};
 		9CD0C718B86704A796979BDCDDADE8F2 /* DevSupport */ = {
@@ -2145,9 +2145,9 @@
 			productReference = 0925BA507C81C451DFE6240433068B4C /* libReact.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B6584E62511E70729920371D0C2DE5BC /* Pods-click-face-game */ = {
+		B6584E62511E70729920371D0C2DE5BC /* Pods-clickfacegame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86269571DCC923610C7E093E7D8C2B3B /* Build configuration list for PBXNativeTarget "Pods-click-face-game" */;
+			buildConfigurationList = 86269571DCC923610C7E093E7D8C2B3B /* Build configuration list for PBXNativeTarget "Pods-clickfacegame" */;
 			buildPhases = (
 				D1FFFB4F62EE6544D548C1B11B95F543 /* Sources */,
 				79B5E4529B1E78D372480DFF86838033 /* Frameworks */,
@@ -2158,9 +2158,9 @@
 				DE514CC7170EDB0B33D1CFE3523D4B88 /* PBXTargetDependency */,
 				42C310DFE081F19DD8803979982E2B98 /* PBXTargetDependency */,
 			);
-			name = "Pods-click-face-game";
-			productName = "Pods-click-face-game";
-			productReference = B705521077519AFDBCF638753A3BE082 /* libPods-click-face-game.a */;
+			name = "Pods-clickfacegame";
+			productName = "Pods-clickfacegame";
+			productReference = B705521077519AFDBCF638753A3BE082 /* libPods-clickfacegame.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B6EBACC4036F2608A1EC81B66DFB9885 /* yoga */ = {
@@ -2201,7 +2201,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6584E62511E70729920371D0C2DE5BC /* Pods-click-face-game */,
+				B6584E62511E70729920371D0C2DE5BC /* Pods-clickfacegame */,
 				B31C9F773F2E8112EF147904A23D8315 /* React */,
 				B6EBACC4036F2608A1EC81B66DFB9885 /* yoga */,
 			);
@@ -2430,7 +2430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DC2EF9EDAE00A8B48F4DA7DA8BCA3B /* Pods-click-face-game-dummy.m in Sources */,
+				90DC2EF9EDAE00A8B48F4DA7DA8BCA3B /* Pods-clickfacegame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2483,7 +2483,7 @@
 		};
 		7D02192446AB007C6E8D9444DED83786 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-click-face-game.release.xcconfig */;
+			baseConfigurationReference = 1A1470D8CABB0F3BBC0C1E53B72B0CC1 /* Pods-clickfacegame.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2505,7 +2505,7 @@
 		};
 		946B5785228590A87A74273622C63B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74630EA2EE5B916A47459E5CFBD411F4 /* Pods-click-face-game.debug.xcconfig */;
+			baseConfigurationReference = 74630EA2EE5B916A47459E5CFBD411F4 /* Pods-clickfacegame.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2728,7 +2728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86269571DCC923610C7E093E7D8C2B3B /* Build configuration list for PBXNativeTarget "Pods-click-face-game" */ = {
+		86269571DCC923610C7E093E7D8C2B3B /* Build configuration list for PBXNativeTarget "Pods-clickfacegame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				946B5785228590A87A74273622C63B45 /* Debug */,

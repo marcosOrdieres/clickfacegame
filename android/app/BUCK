@@ -45,12 +45,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.mamarene.click-face-game",
+    package = "com.mamarene.",
 )
 
 android_resource(
     name = "res",
-    package = "com.mamarene.click-face-game",
+    package = "com.mamarene.",
     res = "src/main/res",
 )
 
