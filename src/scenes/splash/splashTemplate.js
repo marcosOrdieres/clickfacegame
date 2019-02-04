@@ -19,7 +19,7 @@ export default (controller) => (
       </View>
       <View style={{justifyContent: 'center',alignItems: 'center', width:width/2}}>
         <TimerCountdown
-          initialSecondsRemaining={5000}
+          initialSecondsRemaining={controller.state.score >  10 ? 2000 : 5000}
           onTick={secondsRemaining => console.log('tick', secondsRemaining)}
           onTimeElapsed={() => {controller.gameOver();}}
           allowFontScaling
