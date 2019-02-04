@@ -23,7 +23,9 @@ class SplashController extends BaseScene {
       buttonGameOver: false,
       score: 0,
       finalScore:0,
-      currentScore:0
+      currentScore:0,
+      letsLoadAdvertisment:false,
+      randomValue: (Math.floor((Math.random() * (120 - 30)) + 30))
     };
   }
 
@@ -42,8 +44,8 @@ class SplashController extends BaseScene {
 
   chargeAd () {
     // Display an interstitial
-    AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // poner el mio
-    AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
+    AdMobInterstitial.setAdUnitID('ca-app-pub-7498255284251761/3925340325'); // mamarene Id
+    AdMobInterstitial.setTestDevices(['6D1D35847F87DD467EE0D0AD2FE07E63']); // my phone Device
     AdMobInterstitial.requestAd();
   }
 
@@ -62,6 +64,10 @@ class SplashController extends BaseScene {
     return {topArray, leftArray};
   }
 
+  getRandomValue(){
+    return this.state.randomValue;
+  }
+
   async gameOver () {
     ToastAndroid.showWithGravityAndOffset(
         'GAME OVER',
@@ -70,7 +76,6 @@ class SplashController extends BaseScene {
         0,
         100
       );
-    //this.setState({buttonGameOver: true});
     let bestScore = await this.storage.getAsyncStorage('bestScore');
     if(!bestScore){
       await this.storage.setAsyncStorage('bestScore', this.state.score);
@@ -84,6 +89,7 @@ class SplashController extends BaseScene {
     this.setState({
       buttonGameOver: true,
       currentScore: this.state.score,
+      letsLoadAdvertisment:false,
       score: 0,
       finalScore
     });

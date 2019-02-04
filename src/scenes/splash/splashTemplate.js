@@ -7,6 +7,8 @@ import BombExplosion from '../../assets/svg/BombExplosion.js';
 import BombSafe from '../../assets/svg/BombSafe';
 
 const {width, height} = Dimensions.get('window');
+//carita alos 12 aleatoria.
+//carita de Putin con flequillo al nuvel 30
 
 export default (controller) => (
   <View style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
@@ -15,16 +17,19 @@ export default (controller) => (
     <View style={{flexDirection: 'row', width: width, height: 50, alignItems: 'center', paddingTop:10}}>
       <View style={{justifyContent: 'center',alignItems: 'center', width:width/2}}>
         <Text style={{fontSize:20, fontWeight:'bold'}}>Score: {controller.state.score}</Text>
-
       </View>
       <View style={{justifyContent: 'center',alignItems: 'center', width:width/2}}>
-        <TimerCountdown
-          initialSecondsRemaining={controller.state.score >  10 ? 2000 : 5000}
-          onTick={secondsRemaining => console.log('tick', secondsRemaining)}
-          onTimeElapsed={() => {controller.gameOver();}}
-          allowFontScaling
-          style={{ fontSize: 20 }}
-        />
+        {controller.state.score > 0 ?
+          <TimerCountdown
+            initialSecondsRemaining={controller.state.score >  10 ? 3000 : 6000}
+            onTick={secondsRemaining => console.log('tick', secondsRemaining)}
+            onTimeElapsed={() => {controller.gameOver();}}
+            allowFontScaling
+            style={{ fontSize: 20 }}
+          />
+        :
+        <Text style={{fontSize:14, fontWeight:'bold'}}>Click the Extra face in the Left</Text>
+        }
       </View>
     </View>
     :
@@ -44,12 +49,18 @@ export default (controller) => (
                 numberFaces: joined
               });
               controller.setState({
-                score: controller.state.score + 1
+                score: controller.state.score + 1,
+                randomValue: (Math.floor((Math.random() * (75 - 30)) + 30))
               })
               const topAndLeft = controller.setTopAndLeft();
               controller.user.setTopStyle(topAndLeft.topArray);
               controller.user.setLeftStyle(topAndLeft.leftArray);
-              controller.chargeAd();
+              if(!controller.state.letsLoadAdvertisment){
+                controller.chargeAd();
+                controller.setState({
+                  letsLoadAdvertisment: true
+                })
+              }
             }}
             style={{
               zIndex: 1000,
@@ -58,13 +69,21 @@ export default (controller) => (
               left: (Math.floor((Math.random() * (width / 3 - 0)) + 0))
             }}>
             <Image
-              style={{width: 75, height: 75}}
+              style={{width: controller.state.score > 12 ? controller.getRandomValue() : 75, height: controller.state.score > 12 ? controller.getRandomValue() : 75}}
               source={require('../../assets/images/trump.png')} />
             {/* <BombExplosion width={75} height={75} /> */}
           </TouchableOpacity>
           {controller.generateFaces().map((face, index) =>
             <TouchableOpacity
-              onPress={() => { controller.gameOver(); }}
+              onPress={() => {
+                if(!controller.state.letsLoadAdvertisment){
+                  controller.chargeAd();
+                  controller.setState({
+                    letsLoadAdvertisment: true
+                  })
+                }
+                controller.gameOver();
+              }}
               style={{
                 position: 'relative',
                 top: !controller.user.getTopStyle() ? controller.state.top : controller.user.getTopStyle()[face],
@@ -111,7 +130,15 @@ export default (controller) => (
         <TouchableOpacity style={{width: width / 2, backgroundColor: 'skyblue', borderWidth:1, borderColor:'black'}}>
           {controller.generateFaces().map((face, index) =>
             <TouchableOpacity
-              onPress={() => { controller.gameOver(); }}
+              onPress={() => {
+                if(!controller.state.letsLoadAdvertisment){
+                  controller.chargeAd();
+                  controller.setState({
+                    letsLoadAdvertisment: true
+                  })
+                }
+                controller.gameOver();
+              }}
               style={{
                 position: 'relative',
                 top: !controller.user.getTopStyle() ? controller.state.top : controller.user.getTopStyle()[face],
