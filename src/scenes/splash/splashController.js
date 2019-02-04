@@ -43,10 +43,9 @@ class SplashController extends BaseScene {
   }
 
   chargeAd () {
-    console.warn('CHARGE DE ADD');
     // Display an interstitial
-    AdMobInterstitial.setAdUnitID('ca-app-pub-7498255284251761/3925340325'); // poner el mio
-    AdMobInterstitial.setTestDevices(['6D1D35847F87DD467EE0D0AD2FE07E63']);
+    AdMobInterstitial.setAdUnitID('ca-app-pub-7498255284251761/3925340325'); // mamarene Id
+    AdMobInterstitial.setTestDevices(['6D1D35847F87DD467EE0D0AD2FE07E63']); // my phone Device
     AdMobInterstitial.requestAd();
   }
 
@@ -66,7 +65,6 @@ class SplashController extends BaseScene {
   }
 
   getRandomValue(){
-    console.warn('random:', this.state.randomValue);
     return this.state.randomValue;
   }
 
