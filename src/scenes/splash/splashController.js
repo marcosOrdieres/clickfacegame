@@ -5,6 +5,7 @@ import { Dimensions, ToastAndroid } from 'react-native';
 import { StackActions, NavigationActions } from 'react-navigation';
 import { AdMobInterstitial } from 'react-native-admob';
 import firebase from 'react-native-firebase';
+//import services from '../../services';
 
 const {width, height} = Dimensions.get('window');
 
@@ -19,7 +20,10 @@ class SplashController extends BaseScene {
       top: (Math.floor((Math.random() * (height / 2 - 0)) + 0)),
       left: (Math.floor((Math.random() * (width / 3 - 0)) + 0)),
       toastVisible: false,
-      buttonGameOver: false
+      buttonGameOver: false,
+      score: 0,
+      finalScore:0,
+      currentScore:0
     };
   }
 
@@ -37,7 +41,6 @@ class SplashController extends BaseScene {
   }
 
   chargeAd () {
-    console.warn('CHARGING');
     // Display an interstitial
     AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // poner el mio
     AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
@@ -59,7 +62,7 @@ class SplashController extends BaseScene {
     return {topArray, leftArray};
   }
 
-  gameOver () {
+  async gameOver () {
     ToastAndroid.showWithGravityAndOffset(
         'GAME OVER',
         ToastAndroid.LONG,
@@ -67,7 +70,29 @@ class SplashController extends BaseScene {
         0,
         100
       );
-    this.setState({buttonGameOver: true});
+    //this.setState({buttonGameOver: true});
+    let bestScore = await this.storage.getAsyncStorage('bestScore');
+    if(!bestScore){
+      await this.storage.setAsyncStorage('bestScore', this.state.score);
+    } else{
+      if(this.state.score > bestScore){
+        await this.storage.setAsyncStorage('bestScore', this.state.score);
+      }
+    }
+    const finalScore = await this.storage.getAsyncStorage('bestScore');
+
+    this.setState({
+      buttonGameOver: true,
+      currentScore: this.state.score,
+      score: 0,
+      finalScore
+    });
+
+  }
+
+  async getBestScore(){
+    //let bestScore = await this.storage.getAsyncStorage('bestScore');
+    return 1;
   }
 
   async onStartAgain () {
