@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/marcos/clickfacegame/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_launcher_background.xml",
+        "source": "/Users/marcos/clickfacegame/android/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/marcos/clickfacegame/android/app/build/intermediates/res/merged/release/drawable-anydpi-v21/ic_launcher_foreground.xml",
+        "source": "/Users/marcos/clickfacegame/android/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_foreground.xml"
+    }
+]

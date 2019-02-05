@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/marcos/clickfacegame/android/app/build/intermediates/res/merged/release/drawable-ldpi-v4/ic_launcher_background.png",
+        "source": "/Users/marcos/clickfacegame/android/app/build/generated/res/pngs/release/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/marcos/clickfacegame/android/app/build/intermediates/res/merged/release/drawable-ldpi-v4/ic_launcher_foreground.png",
+        "source": "/Users/marcos/clickfacegame/android/app/build/generated/res/pngs/release/drawable-ldpi/ic_launcher_foreground.png"
+    }
+]

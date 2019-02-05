@@ -10,6 +10,8 @@ import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.sbugert.rnadmob.RNAdMobPackage;
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
+
 import com.horcrux.svg.SvgPackage;
 
 import java.util.Arrays;
@@ -29,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
           new RNI18nPackage(),
           new RNFirebasePackage(),
+          new RNFirebaseAnalyticsPackage(),
           new RNAdMobPackage(),
           new SvgPackage()
       );
